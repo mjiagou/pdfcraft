@@ -10,11 +10,11 @@ export function generateStaticParams() {
 }
 
 interface BlogIndexProps {
-  params: { locale: Locale };
+  params: Promise<{ locale: Locale }>;
 }
 
 export default async function BlogIndex({ params }: BlogIndexProps) {
-  const { locale } = params;
+  const { locale } = await params;
   const dir = path.join(process.cwd(), 'content', 'blog', locale);
   const posts: Array<{ slug: string; title?: string; date?: string; excerpt?: string }> = [];
 

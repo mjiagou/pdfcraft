@@ -2,13 +2,13 @@
  * Site configuration
  */
 export const siteConfig = {
-  name: 'PDFCraft',
+  name: '一个在线PDF工具',
   description: 'Professional PDF Tools - Free, Private & Browser-Based. Merge, split, compress, convert, and edit PDF files online without uploading to servers.',
   url: 'https://yggj.site',
   ogImage: '/images/og-image.png',
   links: {
-    github: 'https://github.com/PDFCraftTool/pdfcraft',
-    twitter: 'https://twitter.com/pdfcraft',
+    github: 'https://github.com/mjiaguo/pdfcraft',
+    twitter: '',
   },
   creator: 'PDFCraft Team',
   keywords: [
@@ -25,8 +25,8 @@ export const siteConfig = {
   ],
   // SEO-related settings
   seo: {
-    titleTemplate: '%s | PDFCraft',
-    defaultTitle: 'PDFCraft - Professional PDF Tools',
+    titleTemplate: '%s | 一个在线PDF工具',
+    defaultTitle: '一个在线PDF工具 - Professional PDF Tools',
     twitterHandle: '@pdfcraft',
     locale: 'en_US',
   },
@@ -39,6 +39,7 @@ export const navConfig = {
   mainNav: [
     { title: 'Home', href: '/' },
     { title: 'Tools', href: '/tools' },
+    { title: 'Blog', href: '/blog' },
     { title: 'About', href: '/about' },
     { title: 'FAQ', href: '/faq' },
   ],

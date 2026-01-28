@@ -21,11 +21,11 @@ export async function generateStaticParams() {
 }
 
 interface BlogPostProps {
-  params: { locale: Locale; slug: string };
+  params: Promise<{ locale: Locale; slug: string }>;
 }
 
 export default async function BlogPost({ params }: BlogPostProps) {
-  const { locale, slug } = params;
+  const { locale, slug } = await params;
   const mdPath = path.join(process.cwd(), 'content', 'blog', locale, slug + '.md');
   if (!fs.existsSync(mdPath)) {
     notFound();
