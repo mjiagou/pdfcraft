@@ -37,7 +37,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
   return (
     <article>
       <h1>{data?.title ?? slug}</h1>
-      {data?.date && <p>{data.date}</p>}
+      {data?.date && <p>{String(data.date)}</p>}
       {data?.excerpt && <p>{data.excerpt}</p>}
       <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
     </article>

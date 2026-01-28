@@ -48,7 +48,7 @@ export default async function BlogIndex({ params }: BlogIndexProps) {
         {posts.map((p) => (
           <li key={p.slug}>
             <Link href={`/${locale}/blog/${p.slug}`}>{p.title ?? p.slug}</Link>
-            {p.date && <span> — {p.date}</span>}
+            {p.date && <span> — {String(p.date)}</span>}
             {p.excerpt && <p>{p.excerpt}</p>}
           </li>
         ))}
