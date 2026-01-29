@@ -6,8 +6,12 @@ import matter from 'gray-matter';
 import { locales, type Locale } from '@/lib/i18n/config';
 import { unified } from 'unified';
 import remarkParse from 'remark-parse';
+import remarkGfm from 'remark-gfm';
 import html from 'remark-html';
 import { Header } from '@/components/layout/Header';
+// ... rest of imports
+
+// ... rest of imports
 import { Footer } from '@/components/layout/Footer';
 
 export async function generateStaticParams() {
@@ -59,7 +63,11 @@ export default async function BlogPost({ params }: BlogPostProps) {
   }
   const file = fs.readFileSync(mdPath, 'utf8');
   const { data, content } = matter(file);
-  const processed = await unified().use(remarkParse).use(html).process(content);
+  const processed = await unified()
+    .use(remarkParse)
+    .use(remarkGfm)
+    .use(html)
+    .process(content);
   const contentHtml = processed.toString();
 
   return (
