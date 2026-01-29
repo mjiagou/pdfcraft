@@ -37,15 +37,17 @@ export default async function LinksPage({
     // Specific links for this demo - could be moved to config later
     const links: LinkItem[] = [
         {
-            title: 'Next.js',
-            description: 'The React Framework for the Web',
-            url: 'https://nextjs.org',
+            title: '一个机场',
+            description: '一个机场 科学上网 免费机场推荐 出海工具推荐',
+            url: 'https://ygjc.cc',
+            img: 'https://ygjc.cc/vitepress-logo-large.svg',
             icon: '▲',
         },
         {
-            title: 'Tailwind CSS',
-            description: 'Rapidly build modern websites without ever leaving your HTML.',
-            url: 'https://tailwindcss.com',
+            title: '油管驿站',
+            description: 'YouTube资源、工具与YouTuber运营教程分享平台，探索YouTube无限可能。',
+            url: 'https://www.08yt.com',
+            img: 'https://blogger.googleusercontent.com/img/a/AVvXsEikQnGyDNvNFQU3P_pj6FjhkFhz27A1P8LRFrrDhtVMEt78k6v_8ls_LtfRM8gpi1cl0UWmXNKMh84gNbfHuNv3O1q_1CwrWusFJT1fD9mx46QYte6oy28avBoTByXE4jAF-oWD-MlPiIVhVJUgCpCDq0hRX-TTrgIqBj6NKUVaGnDCi874bAEieY51Z8wb=s800',
             icon: '🌊',
         },
         {
