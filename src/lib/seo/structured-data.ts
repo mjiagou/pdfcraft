@@ -152,6 +152,39 @@ export interface BreadcrumbListSchema {
 }
 
 /**
+ * BlogPosting schema
+ * @see https://schema.org/BlogPosting
+ */
+export interface BlogPostingSchema {
+  '@context': 'https://schema.org';
+  '@type': 'BlogPosting';
+  headline: string;
+  description: string;
+  image?: string[];
+  datePublished: string;
+  dateModified?: string;
+  author: {
+    '@type': 'Organization';
+    name: string;
+    url?: string;
+  };
+  publisher: {
+    '@type': 'Organization';
+    name: string;
+    logo?: {
+      '@type': 'ImageObject';
+      url: string;
+    };
+  };
+  mainEntityOfPage: {
+    '@type': 'WebPage';
+    '@id': string;
+  };
+  articleBody: string;
+  keywords?: string;
+}
+
+/**
  * Generate SoftwareApplication schema for a tool page
  */
 export function generateSoftwareApplicationSchema(
@@ -449,5 +482,52 @@ export function validateFAQPageSchema(
   return {
     valid: missingFields.length === 0,
     missingFields,
+  };
+}
+
+/**
+ * Generate BlogPosting schema for a blog post
+ */
+export function generateBlogPostingSchema(
+  post: {
+    title: string;
+    description: string;
+    date: string;
+    image?: string[];
+    content: string;
+    slug: string;
+    keywords?: string[];
+  },
+  locale: Locale
+): BlogPostingSchema {
+  const url = `${siteConfig.url}/${locale}/blog/${post.slug}`;
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.description,
+    image: post.image,
+    datePublished: new Date(post.date).toISOString(),
+    dateModified: new Date(post.date).toISOString(),
+    author: {
+      '@type': 'Organization',
+      name: siteConfig.name,
+      url: siteConfig.url,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: siteConfig.name,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${siteConfig.url}/images/logo.png`,
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': url,
+    },
+    articleBody: post.content,
+    keywords: post.keywords ? post.keywords.join(', ') : undefined,
   };
 }

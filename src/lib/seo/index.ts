@@ -33,7 +33,9 @@ export {
   generateToolPageStructuredData,
   generateHowToSchema,
   generateWebPageSchema,
+  generateBlogPostingSchema,
   serializeStructuredData,
+
   validateSoftwareApplicationSchema,
   validateFAQPageSchema,
   type SoftwareApplicationSchema,
@@ -43,4 +45,5 @@ export {
   type BreadcrumbListSchema,
   type HowToSchema,
   type WebPageSchema,
+  type BlogPostingSchema,
 } from './structured-data';

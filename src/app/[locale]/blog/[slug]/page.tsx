@@ -4,6 +4,9 @@ import path from 'path';
 import fs from 'fs';
 import matter from 'gray-matter';
 import { locales, type Locale } from '@/lib/i18n/config';
+import { generateBlogPostingSchema } from '@/lib/seo';
+import { JsonLd } from '@/components/seo/JsonLd';
+
 import { unified } from 'unified';
 import remarkParse from 'remark-parse';
 import remarkGfm from 'remark-gfm';
@@ -75,6 +78,20 @@ export default async function BlogPost({ params }: BlogPostProps) {
       <Header locale={locale} />
 
       <main className="flex-1 container mx-auto px-4 py-12 md:py-20">
+        <JsonLd
+          data={generateBlogPostingSchema(
+            {
+              title: data.title,
+              description: data.excerpt || data.description,
+              date: data.date,
+              image: data.image ? [data.image] : (content.match(/!\[.*?\]\((.*?)\)/)?.[1] ? [content.match(/!\[.*?\]\((.*?)\)/)?.[1]!] : undefined),
+              content: content.replace(/---[\s\S]*?---/, '').trim(), // Remove frontmatter from content
+              slug,
+              keywords: data.tags,
+            },
+            locale
+          )}
+        />
         <article className="max-w-3xl mx-auto">
           {/* Back link */}
           <Link
