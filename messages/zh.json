@@ -45,6 +45,9 @@
       "about": "关于",
       "faq": "常见问题",
       "privacy": "隐私",
+      "terms": "服务条款",
+      "disclaimer": "免责声明",
+      "cookies": "Cookies",
       "contact": "联系我们",
       "links": "友情链接"
     },
@@ -278,6 +281,87 @@
   "linksPage": {
     "title": "友情链接",
     "description": "我们的合作伙伴和推荐资源。"
+  },
+  "terms": {
+    "title": "服务条款",
+    "description": "使用 PDFCraft 的条款和条件。",
+    "intro": "访问和使用 PDFCraft 即表示您接受并同意受本协议条款和规定的约束。",
+    "sections": {
+      "usage": {
+        "title": "1. 服务使用",
+        "content": "PDFCraft 提供免费的在线 PDF 工具。您同意仅出于合法目的并按照本条款使用这些服务。您有责任确保您有权处理您上传的文件。"
+      },
+      "privacy": {
+        "title": "2. 隐私与数据",
+        "content": "我们重视您的隐私。文件在您的浏览器中本地处理，不会上传到我们的服务器。有关更多详细信息，请查看我们的隐私政策。"
+      },
+      "intellectualProperty": {
+        "title": "3. 知识产权",
+        "content": "您保留对文件的所有权利。我们不对您使用我们的工具处理的任何内容主张所有权。"
+      },
+      "liability": {
+        "title": "4. 责任限制",
+        "content": "本服务按“原样”提供，没有任何形式的保证。我们不对因使用我们的工具而导致的任何损害或数据丢失承担责任。虽然我们努力确保可靠性，但软件可能存在错误，使用本服务的风险由您自行承担。"
+      },
+      "termination": {
+        "title": "5. 终止",
+        "content": "我们保留随时出于任何原因（包括但不限于您违反本条款）立即终止或暂停您访问我们服务的权利，恕不另行通知。"
+      },
+      "updates": {
+        "title": "6. 条款变更",
+        "content": "我们保留随时修改这些条款的权利。我们将通过在此网站上发布新条款来通知重大变更。"
+      }
+    }
+  },
+  "disclaimer": {
+    "title": "免责声明",
+    "description": "使用 PDFCraft 的法律免责声明。",
+    "intro": "PDFCraft 提供的所有信息仅供一般参考之用。",
+    "sections": {
+      "general": {
+        "title": "一般免责声明",
+        "content": "本网站及其工具上的所有信息均属善意提供，但我们就本网站上任何信息或工具的准确性、充分性、有效性、可靠性、可用性或完整性不作任何形式的明示或暗示的陈述或保证。"
+      },
+      "professional": {
+        "title": "非专业建议",
+        "content": "本网站不包含法律或专业建议。这些信息仅供一般教育和工具使用目的，不能替代专业建议。"
+      },
+      "affiliates": {
+        "title": "联盟披露",
+        "content": "本网站可能包含指向联盟网站的链接，如果您使用此类链接在联盟网站上进行购买，我们可能会收到联盟佣金。这有助于通过我们的免费工具为您提供支持。"
+      },
+      "ads": {
+        "title": "广告披露",
+        "content": "当您访问我们的网站时，我们使用第三方广告公司（如 Google AdSense）来投放广告。这些公司可能会使用有关您访问本网站和其他网站的信息，以便向您提供您感兴趣的商品和服务的广告。"
+      }
+    }
+  },
+  "cookies": {
+    "title": "Cookies 政策",
+    "description": "关于我们如何使用 Cookies 的信息。",
+    "intro": "本 Cookies 政策解释了什么是 Cookies 以及我们如何使用它们。",
+    "sections": {
+      "whatAreCookies": {
+        "title": "什么是 Cookies？",
+        "content": "Cookies 是您访问网站时存储在您的计算机或移动设备上的小文本文件。它们被广泛用于使网站运行或更有效地运行，以及向网站所有者提供信息。"
+      },
+      "howWeUse": {
+        "title": "我们如何使用 Cookies",
+        "content": "我们使用 Cookies 来：1) 记住您的偏好（如语言）。2) 了解您如何使用我们的网站（分析）。3) 提供相关广告（AdSense）。"
+      },
+      "types": {
+        "title": "我们使用的 Cookies 类型",
+        "list": {
+          "essential": "必要 Cookies：网站正常运行所必需的。",
+          "analytics": "分析 Cookies：帮助我们了解访问者如何与网站互动。",
+          "advertising": "广告 Cookies：用于向您提供相关的广告。"
+        }
+      },
+      "managing": {
+        "title": "管理 Cookies",
+        "content": "您可以根据需要控制和/或删除 Cookies。您可以删除计算机上已有的所有 Cookies，并且可以设置大多数浏览器以防止放置它们。但是，如果您这样做，您可能需要在每次访问网站时手动调整某些首选项。"
+      }
+    }
   },
   "aboutPage": {
     "title": "关于 {brand}",

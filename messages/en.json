@@ -45,6 +45,9 @@
       "about": "About",
       "faq": "FAQ",
       "privacy": "Privacy",
+      "terms": "Terms",
+      "disclaimer": "Disclaimer",
+      "cookies": "Cookies",
       "contact": "Contact",
       "links": "Friends"
     },
@@ -278,6 +281,87 @@
   "linksPage": {
     "title": "Friends Links",
     "description": "Our partners and recommended resources."
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "description": "Terms and conditions for using PDFCraft.",
+    "intro": "By accessing and using PDFCraft, you accept and agree to be bound by the terms and provision of this agreement.",
+    "sections": {
+      "usage": {
+        "title": "1. Use of Service",
+        "content": "PDFCraft provides free online PDF tools. You agree to use these services only for lawful purposes and in accordance with these Terms. You are responsible for ensuring that you have the right to process the files you upload."
+      },
+      "privacy": {
+        "title": "2. Privacy & Data",
+        "content": "We prioritize your privacy. Files are processed locally in your browser and are not uploaded to our servers. Review our Privacy Policy for more details."
+      },
+      "intellectualProperty": {
+        "title": "3. Intellectual Property",
+        "content": "You retain all rights to your files. We do not claim ownership of any content you process using our tools."
+      },
+      "liability": {
+        "title": "4. Limitation of Liability",
+        "content": "The service is provided \"as is\" without warranty of any kind. We are not liable for any damages or data loss resulting from the use of our tools. While we strive for reliability, software can have bugs, and you use the service at your own risk."
+      },
+      "termination": {
+        "title": "5. Termination",
+        "content": "We reserve the right to terminate or suspend access to our service immediately, without prior notice, for any reason whatsoever, including without limitation if you breach the Terms."
+      },
+      "updates": {
+        "title": "6. Changes to Terms",
+        "content": "We reserve the right to modify these terms at any time. We will provide notice of significant changes by posting the new terms on this site."
+      }
+    }
+  },
+  "disclaimer": {
+    "title": "Disclaimer",
+    "description": "Legal disclaimer for usage of PDFCraft.",
+    "intro": "The information provided by PDFCraft is for general informational purposes only.",
+    "sections": {
+      "general": {
+        "title": "General Disclaimer",
+        "content": "All information on the Site and our tools are provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information or tool on the Site."
+      },
+      "professional": {
+        "title": "Not Professional Advice",
+        "content": "The Site does not contain legal or professional advice. The information is provided for general educational and tool-usage purposes only and is not a substitute for professional advice."
+      },
+      "affiliates": {
+        "title": "Affiliate Disclosure",
+        "content": "This site may contain links to affiliate websites, and we receive an affiliate commission for any purchases made by you on the affiliate website using such links. This helps support our free tools."
+      },
+      "ads": {
+        "title": "Advertising Disclosure",
+        "content": "We use third-party advertising companies (such as Google AdSense) to serve ads when you visit our website. These companies may use information about your visits to this and other websites in order to provide advertisements about goods and services of interest to you."
+      }
+    }
+  },
+  "cookies": {
+    "title": "Cookies Policy",
+    "description": "Information about how we use cookies.",
+    "intro": "This Cookies Policy explains what cookies are and how we use them.",
+    "sections": {
+      "whatAreCookies": {
+        "title": "What are Cookies?",
+        "content": "Cookies are small text files that are stored on your computer or mobile device when you visit a website. They are widely used to make websites work, or work more efficiently, as well as to provide information to the owners of the site."
+      },
+      "howWeUse": {
+        "title": "How We Use Cookies",
+        "content": "We use cookies to: 1) Remember your preferences (like language). 2) Understand how you use our site (Analytics). 3) Deliver relevant advertisements (AdSense)."
+      },
+      "types": {
+        "title": "Types of Cookies We Use",
+        "list": {
+          "essential": "Essential Cookies: Necessary for the website to function properly.",
+          "analytics": "Analytics Cookies: Help us understand how visitors interact with the website.",
+          "advertising": "Advertising Cookies: Used to deliver advertisements that are relevant to you."
+        }
+      },
+      "managing": {
+        "title": "Managing Cookies",
+        "content": "You can control and/or delete cookies as you wish. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. If you do this, however, you may have to manually adjust some preferences every time you visit a site."
+      }
+    }
   },
   "aboutPage": {
     "title": "About {brand}",
