@@ -23,6 +23,7 @@ export const Footer: React.FC<FooterProps> = ({ locale }) => {
     { href: `/${locale}/faq`, label: t('navigation.faq') },
     { href: `/${locale}/privacy`, label: t('navigation.privacy') },
     { href: `/${locale}/contact`, label: t('navigation.contact') },
+    { href: `/${locale}/links`, label: t('navigation.links') },
   ];
 
   const handleLanguageChange = (newLocale: Locale) => {

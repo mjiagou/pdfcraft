@@ -45,7 +45,8 @@
       "about": "关于",
       "faq": "常见问题",
       "privacy": "隐私",
-      "contact": "联系我们"
+      "contact": "联系我们",
+      "links": "友情链接"
     },
     "buttons": {
       "upload": "上传文件",
@@ -273,6 +274,10 @@
       "description": "找不到您想要的答案？请随时联系我们。",
       "button": "联系我们"
     }
+  },
+  "linksPage": {
+    "title": "友情链接",
+    "description": "我们的合作伙伴和推荐资源。"
   },
   "aboutPage": {
     "title": "关于 {brand}",

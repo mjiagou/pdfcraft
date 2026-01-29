@@ -45,7 +45,8 @@
       "about": "About",
       "faq": "FAQ",
       "privacy": "Privacy",
-      "contact": "Contact"
+      "contact": "Contact",
+      "links": "Friends"
     },
     "buttons": {
       "upload": "Upload Files",
@@ -273,6 +274,10 @@
       "description": "Can't find the answer you're looking for? Feel free to reach out to us.",
       "button": "Contact Us"
     }
+  },
+  "linksPage": {
+    "title": "Friends Links",
+    "description": "Our partners and recommended resources."
   },
   "aboutPage": {
     "title": "About {brand}",
