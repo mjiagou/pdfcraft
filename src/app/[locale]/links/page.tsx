@@ -1,4 +1,5 @@
 import { getTranslations } from 'next-intl/server';
+import { type Metadata } from 'next';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { type Locale } from '@/lib/i18n/config';
@@ -8,6 +9,21 @@ interface LinkItem {
     description: string;
     url: string;
     icon?: string;
+    img?: string;
+}
+
+export async function generateMetadata({
+    params,
+}: {
+    params: Promise<{ locale: Locale }>;
+}): Promise<Metadata> {
+    const { locale } = await params;
+    const t = await getTranslations({ locale, namespace: 'linksPage' });
+
+    return {
+        title: t('title'),
+        description: t('description'),
+    };
 }
 
 export default async function LinksPage({
@@ -38,6 +54,12 @@ export default async function LinksPage({
             url: 'https://vercel.com',
             icon: '▲',
         },
+        {
+            title: '一个机场',
+            description: '一个机场 科学上网 免费机场推荐 出海工具推荐',
+            url: 'https://ygjc.cc',
+            icon: '✈️',
+        },
     ];
 
     return (
@@ -65,8 +87,13 @@ export default async function LinksPage({
                                 className="group block p-6 rounded-2xl bg-[hsl(var(--color-card))] border border-[hsl(var(--color-border))] hover:border-[hsl(var(--color-primary))] hover:shadow-lg transition-all duration-300"
                             >
                                 <div className="flex items-start justify-between mb-4">
-                                    <div className="h-10 w-10 flex items-center justify-center rounded-xl bg-[hsl(var(--color-primary)/0.1)] text-2xl group-hover:scale-110 transition-transform">
-                                        {link.icon || '🔗'}
+                                    <div className="h-10 w-10 flex items-center justify-center rounded-xl bg-[hsl(var(--color-primary)/0.1)] text-2xl group-hover:scale-110 transition-transform overflow-hidden">
+                                        {link.img ? (
+                                            // eslint-disable-next-line @next/next/no-img-element
+                                            <img src={link.img} alt={link.title} className="w-full h-full object-cover" />
+                                        ) : (
+                                            link.icon || '🔗'
+                                        )}
                                     </div>
                                     <div className="p-1.5 rounded-full bg-[hsl(var(--color-muted))] text-[hsl(var(--color-muted-foreground))] group-hover:bg-[hsl(var(--color-primary))] group-hover:text-white transition-colors">
                                         <svg
