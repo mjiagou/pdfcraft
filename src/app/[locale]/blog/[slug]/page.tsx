@@ -4,7 +4,8 @@ import path from 'path';
 import fs from 'fs';
 import matter from 'gray-matter';
 import { locales, type Locale } from '@/lib/i18n/config';
-import { remark } from 'remark';
+import { unified } from 'unified';
+import remarkParse from 'remark-parse';
 import html from 'remark-html';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
@@ -23,6 +24,29 @@ export async function generateStaticParams() {
   return results;
 }
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: Locale; slug: string }>;
+}) {
+  const { locale, slug } = await params;
+  const mdPath = path.join(process.cwd(), 'content', 'blog', locale, slug + '.md');
+
+  if (!fs.existsSync(mdPath)) {
+    return {
+      title: 'Blog Post Not Found',
+    };
+  }
+
+  const file = fs.readFileSync(mdPath, 'utf8');
+  const { data } = matter(file);
+
+  return {
+    title: `${data.title} - PDFCraft Blog`,
+    description: data.excerpt || data.description || `Read ${data.title} on PDFCraft Blog`,
+  };
+}
+
 interface BlogPostProps {
   params: Promise<{ locale: Locale; slug: string }>;
 }
@@ -35,7 +59,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
   }
   const file = fs.readFileSync(mdPath, 'utf8');
   const { data, content } = matter(file);
-  const processed = await remark().use(html).process(content);
+  const processed = await unified().use(remarkParse).use(html).process(content);
   const contentHtml = processed.toString();
 
   return (

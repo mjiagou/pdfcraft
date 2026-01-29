@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 /* PDFCraft Design System - CSS Variables for Theming */
 :root {
