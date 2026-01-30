@@ -16,6 +16,7 @@ import type { Locale } from '@/lib/i18n/config';
 export interface SoftwareApplicationSchema {
   '@context': 'https://schema.org';
   '@type': 'SoftwareApplication';
+  '@id': string;
   name: string;
   description: string;
   url: string;
@@ -81,8 +82,8 @@ export interface WebPageSchema {
     name: string;
   };
   mainEntity?: {
-    '@type': string;
-    name: string;
+    '@type': 'SoftwareApplication';
+    '@id': string;
   };
 }
 
@@ -192,12 +193,15 @@ export function generateSoftwareApplicationSchema(
   content: ToolContent,
   locale: Locale
 ): SoftwareApplicationSchema {
+  const url = `${siteConfig.url}/${locale}/tools/${tool.slug}`;
+
   const schema: SoftwareApplicationSchema = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
+    '@id': `${url}#application`,
     name: content.title,
     description: content.metaDescription,
-    url: `${siteConfig.url}/${locale}/tools/${tool.slug}`,
+    url: url,
     applicationCategory: 'UtilitiesApplication',
     operatingSystem: 'Windows, macOS, Linux, iOS, Android, Chrome OS',
     offers: {
@@ -276,12 +280,14 @@ export function generateWebPageSchema(
     ar: 'ar-AR',
   };
 
+  const url = `${siteConfig.url}/${locale}/tools/${tool.slug}`;
+
   return {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
     name: content.title,
     description: content.metaDescription,
-    url: `${siteConfig.url}/${locale}/tools/${tool.slug}`,
+    url: url,
     inLanguage: languageMap[locale] || 'en-US',
     isPartOf: {
       '@type': 'WebSite',
@@ -294,7 +300,7 @@ export function generateWebPageSchema(
     },
     mainEntity: {
       '@type': 'SoftwareApplication',
-      name: content.title,
+      '@id': `${url}#application`,
     },
   };
 }
