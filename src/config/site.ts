@@ -2,9 +2,9 @@
  * Site configuration
  */
 export const siteConfig = {
-  name: '一个在线PDF工具',
-  description: 'Professional PDF Tools - Free, Private & Browser-Based. Merge, split, compress, convert, and edit PDF files online without uploading to servers.',
-  url: 'https://yggj.site',
+  name: '免费在线PDF工具 - PDF转换、编辑、压缩一站式服务 | pdf.tpsh.cc',
+  description: 'pdf.tpsh.cc提供完全免费的在线PDF工具，支持PDF转换、合并、拆分、压缩、加密解密等多种功能。无需安装软件，打开网页即可使用，安全便捷的PDF处理平台。',
+  url: 'https://pdf.tpsh.cc',
   ogImage: '/images/og-image.png',
   links: {
     github: 'https://github.com/mjiaguo/pdfcraft',
@@ -25,10 +25,10 @@ export const siteConfig = {
   ],
   // SEO-related settings
   seo: {
-    titleTemplate: '%s | 一个在线PDF工具',
+    titleTemplate: '%s | 免费在线PDF工具',
     defaultTitle: '一个在线PDF工具 - Professional PDF Tools',
     twitterHandle: '@pdfcraft',
-    locale: 'en_US',
+    locale: 'zh_CN',
   },
 };
 

@@ -3,6 +3,7 @@ title: "2026 年最保真 PDF 转 Word 教程：格式不乱、表格不崩、�
 date: 2026-01-29
 excerpt: "扫描件、手写批注、复杂排版的 PDF 转 Word 后一团糟？本文实测多种场景，给出 pdf.ygjc.cc 目前最接近原格式的转换路径，附带保真率对比表格。"
 tags: ["PDF转Word", "格式保真", "扫描件转Word"]
+slug: '2026-best-fidelity-pdf-to-word-tutorial-no-format-loss'
 ---
 
 PDF转Word看似简单，但2026年很多人还是踩坑：表格移位、图片丢失、中文乱码、排版崩坏……尤其是扫描件或带手写批注的合同、论文、发票，传统工具转出来基本没法直接用。
