@@ -1,0 +1,29 @@
+name: Bing IndexNow Submission
+
+on:
+  deployment_status:
+  workflow_dispatch:
+  schedule:
+    # SQL: Run every day at 00:00 UTC
+    - cron: "0 0 * * *"
+
+jobs:
+  submit-indexnow:
+    # Only run if deployment was successful and it's the production environment
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' || (github.event.deployment_status.state == 'success' && github.event.deployment_status.environment != 'Preview')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Wait for deployment propagation
+        run: sleep 60 # Wait 60s to ensure sitemap is accessible
+
+      - name: Submit to IndexNow
+        run: node scripts/submit-indexnow.js
