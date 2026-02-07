@@ -1,4 +1,4 @@
-# PDFCraft Static Export Deployment Guide
+# PDFtpsh Static Export Deployment Guide
 
 This project is configured for static export, making it deployable to any static hosting provider.
 
@@ -368,7 +368,7 @@ NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
 
 ## 🌐 Multi-language Routes
 
-PDFCraft supports multiple languages. The static export generates pages for all locales:
+PDFtpsh supports multiple languages. The static export generates pages for all locales:
 
 | Locale | URL Pattern | Example |
 |--------|-------------|---------|

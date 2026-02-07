@@ -1,4 +1,4 @@
-// PDFCraft Chrome Extension - Background Service Worker
+// PDFtpsh Chrome Extension - Background Service Worker
 
 const PDFCRAFT_URL = 'https://pdfcraft.gitu.net/en';
 
@@ -7,7 +7,7 @@ chrome.runtime.onInstalled.addListener(() => {
     // Create main context menu item
     chrome.contextMenus.create({
         id: 'pdfcraft-open',
-        title: 'Open with PDFCraft',
+        title: 'Open with PDFtpsh',
         contexts: ['link', 'page']
     });
 
@@ -40,7 +40,7 @@ chrome.runtime.onInstalled.addListener(() => {
         contexts: ['link', 'page']
     });
 
-    console.log('PDFCraft context menus created');
+    console.log('PDFtpsh context menus created');
 });
 
 // Handle context menu clicks
@@ -65,9 +65,9 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
             url = PDFCRAFT_URL;
     }
 
-    // Open PDFCraft in a new tab
+    // Open PDFtpsh in a new tab
     chrome.tabs.create({ url: url });
 });
 
 // Log when service worker starts
-console.log('PDFCraft background service worker started');
+console.log('PDFtpsh background service worker started');

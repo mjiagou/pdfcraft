@@ -4,7 +4,7 @@ import path from 'path';
 import fs from 'fs';
 import matter from 'gray-matter';
 import { locales, type Locale } from '@/lib/i18n/config';
-import { generateBlogPostingSchema } from '@/lib/seo';
+import { generateBlogPostingSchema, generateBaseMetadata } from '@/lib/seo';
 import { JsonLd } from '@/components/seo/JsonLd';
 
 import { unified } from 'unified';
@@ -48,10 +48,15 @@ export async function generateMetadata({
   const file = fs.readFileSync(mdPath, 'utf8');
   const { data } = matter(file);
 
-  return {
-    title: `${data.title} - PDFCraft Blog`,
-    description: data.excerpt || data.description || `Read ${data.title} on PDFCraft Blog`,
-  };
+
+
+  return generateBaseMetadata({
+    locale,
+    title: `${data.title} - PDFtpsh Blog`,
+    description: data.excerpt || data.description || `Read ${data.title} on PDFtpsh Blog`,
+    image: data.image,
+    path: `/blog/${slug}`,
+  });
 }
 
 interface BlogPostProps {

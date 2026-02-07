@@ -7,7 +7,7 @@ export const siteConfig = {
   url: 'https://pdf.tpsh.cc',
   ogImage: '/images/og-image.png',
   links: {
-    github: 'https://github.com/mjiaguo/pdfcraft',
+    github: 'https://github.com/mjiagou/pdfcraft',
     twitter: '',
   },
   creator: 'PDFCraft Team',
@@ -26,7 +26,7 @@ export const siteConfig = {
   // SEO-related settings
   seo: {
     titleTemplate: '%s | 免费在线PDF工具',
-    defaultTitle: '一个在线PDF工具 - Professional PDF Tools',
+    defaultTitle: '一个免费的在线PDF工具 - Professional PDF Tools',
     twitterHandle: '@pdfcraft',
     locale: 'zh_CN',
   },

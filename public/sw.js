@@ -1,5 +1,5 @@
 /**
- * Service Worker for PDFCraft
+ * Service Worker for PDFtpsh
  */
 
 const CACHE_NAME = 'pdfcraft-cache-v1';

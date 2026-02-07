@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
-/* PDFCraft Design System - CSS Variables for Theming */
+/* PDFtpsh Design System - CSS Variables for Theming */
 :root {
   /* Primary Colors - Deep Blue/Indigo for trust and modern tech feel */
   --color-primary: 226 71% 55%; /* #3b82f6 - slightly more vibrant */

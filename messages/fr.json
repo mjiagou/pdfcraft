@@ -1,7 +1,7 @@
 {
   "metadata": {
     "home": {
-      "title": "PDFCraft - Outils PDF Professionnels",
+      "title": "PDFtpsh - Outils PDF Professionnels",
       "description": "Gratuit, privé et basé sur navigateur. Fusionnez et modifiez des fichiers PDF en ligne sans les télécharger sur des serveurs."
     },
     "tools": {
@@ -10,19 +10,19 @@
     },
     "about": {
       "title": "À Propos",
-      "description": "Découvrez PDFCraft - votre boîte à outils PDF gratuite, privée et puissante. Tout le traitement se fait dans votre navigateur."
+      "description": "Découvrez PDFtpsh - votre boîte à outils PDF gratuite, privée et puissante. Tout le traitement se fait dans votre navigateur."
     },
     "faq": {
       "title": "Questions Fréquentes",
-      "description": "Trouvez des réponses aux questions courantes sur PDFCraft. Apprenez à utiliser efficacement nos outils PDF."
+      "description": "Trouvez des réponses aux questions courantes sur PDFtpsh. Apprenez à utiliser efficacement nos outils PDF."
     },
     "privacy": {
       "title": "Politique de Confidentialité",
-      "description": "Politique de confidentialité de PDFCraft. Vos fichiers ne quittent jamais votre appareil - tout le traitement se fait localement dans votre navigateur."
+      "description": "Politique de confidentialité de PDFtpsh. Vos fichiers ne quittent jamais votre appareil - tout le traitement se fait localement dans votre navigateur."
     },
     "contact": {
       "title": "Contactez-nous",
-      "description": "Contactez l'équipe PDFCraft. Nous serions ravis de vous entendre."
+      "description": "Contactez l'équipe PDFtpsh. Nous serions ravis de vous entendre."
     },
     "keywords": {
       "pdfTools": "outils PDF",
@@ -35,7 +35,7 @@
     }
   },
   "common": {
-    "brand": "PDFCraft",
+    "brand": "PDFtpsh",
     "tagline": "Outils PDF Professionnels - Gratuits et Privés",
     "navigation": {
       "home": "Accueil",
@@ -128,7 +128,7 @@
       "finish": "Terminer",
       "skip": "Passer",
       "stepOf": "sur",
-      "welcomeTitle": "Bienvenue sur PDFCraft !",
+      "welcomeTitle": "Bienvenue sur PDFtpsh !",
       "welcomeMessage": "Souhaitez-vous une visite rapide pour apprendre à utiliser nos outils PDF ? Cela ne prend qu'une minute.",
       "helpButton": "Visite Guidée"
     },
@@ -155,16 +155,16 @@
       "sections": {
         "general": {
           "whatIs": {
-            "question": "What is PDFCraft?",
-            "answer": "PDFCraft is a free, privacy-focused PDF toolkit that runs entirely in your browser. It offers 67+ professional tools for editing, converting, merging, splitting, and securing PDF files without uploading them to any server."
+            "question": "What is PDFtpsh?",
+            "answer": "PDFtpsh is a free, privacy-focused PDF toolkit that runs entirely in your browser. It offers 67+ professional tools for editing, converting, merging, splitting, and securing PDF files without uploading them to any server."
           },
           "isFree": {
-            "question": "Is PDFCraft really free?",
-            "answer": "Yes, PDFCraft is completely free to use. There are no hidden costs, no premium tiers, and no registration required. All features are available to everyone."
+            "question": "Is PDFtpsh really free?",
+            "answer": "Yes, PDFtpsh is completely free to use. There are no hidden costs, no premium tiers, and no registration required. All features are available to everyone."
           },
           "account": {
             "question": "Do I need to create an account?",
-            "answer": "No, you don't need to create an account or register to use PDFCraft. Simply visit the website and start using any tool immediately."
+            "answer": "No, you don't need to create an account or register to use PDFtpsh. Simply visit the website and start using any tool immediately."
           }
         },
         "privacy": {
@@ -173,8 +173,8 @@
             "answer": "No, your files are never uploaded to any server. All PDF processing happens locally in your browser using JavaScript and WebAssembly. Your files never leave your device."
           },
           "safe": {
-            "question": "Is it safe to use PDFCraft with sensitive documents?",
-            "answer": "Yes, PDFCraft is designed with privacy in mind. Since all processing happens locally in your browser, your sensitive documents remain on your device and are never transmitted over the internet."
+            "question": "Is it safe to use PDFtpsh with sensitive documents?",
+            "answer": "Yes, PDFtpsh is designed with privacy in mind. Since all processing happens locally in your browser, your sensitive documents remain on your device and are never transmitted over the internet."
           },
           "storage": {
             "question": "What happens to my files after processing?",
@@ -184,7 +184,7 @@
         "features": {
           "operations": {
             "question": "What PDF operations can I perform?",
-            "answer": "PDFCraft offers 67+ tools including: merge, split, compress, convert (to/from images, text, JSON), edit, annotate, sign, add watermarks, encrypt/decrypt, OCR, and many more."
+            "answer": "PDFtpsh offers 67+ tools including: merge, split, compress, convert (to/from images, text, JSON), edit, annotate, sign, add watermarks, encrypt/decrypt, OCR, and many more."
           },
           "merge": {
             "question": "Can I merge multiple PDF files?",
@@ -192,17 +192,17 @@
           },
           "images": {
             "question": "Can I convert images to PDF?",
-            "answer": "Yes, PDFCraft supports converting various image formats (JPG, PNG, WebP, BMP, TIFF, SVG, HEIC) to PDF. You can convert single or multiple images at once."
+            "answer": "Yes, PDFtpsh supports converting various image formats (JPG, PNG, WebP, BMP, TIFF, SVG, HEIC) to PDF. You can convert single or multiple images at once."
           },
           "edit": {
             "question": "Can I edit text in a PDF?",
-            "answer": "PDFCraft provides annotation and editing tools including highlighting, adding text, shapes, images, and signatures. For full text editing, the PDF Editor tool offers comprehensive annotation capabilities."
+            "answer": "PDFtpsh provides annotation and editing tools including highlighting, adding text, shapes, images, and signatures. For full text editing, the PDF Editor tool offers comprehensive annotation capabilities."
           }
         },
         "technical": {
           "browsers": {
             "question": "What browsers are supported?",
-            "answer": "PDFCraft works on all modern browsers including Chrome, Firefox, Safari, and Edge. We recommend using the latest version of your browser for the best experience."
+            "answer": "PDFtpsh works on all modern browsers including Chrome, Firefox, Safari, and Edge. We recommend using the latest version of your browser for the best experience."
           },
           "sizeLimit": {
             "question": "Is there a file size limit?",
@@ -213,14 +213,14 @@
             "answer": "Since all processing happens in your browser, performance depends on your device's capabilities. Large files require more memory and processing power. For best results, close other browser tabs and applications."
           },
           "offline": {
-            "question": "Does PDFCraft work offline?",
-            "answer": "Currently, PDFCraft requires an internet connection to load the application. However, once loaded, the PDF processing itself happens locally and doesn't require a connection."
+            "question": "Does PDFtpsh work offline?",
+            "answer": "Currently, PDFtpsh requires an internet connection to load the application. However, once loaded, the PDF processing itself happens locally and doesn't require a connection."
           }
         },
         "languages": {
           "supported": {
             "question": "What languages are supported?",
-            "answer": "PDFCraft is available in 9 languages: English, Japanese, Korean, Spanish, French, German, Chinese, Portuguese, and Arabic (with RTL support)."
+            "answer": "PDFtpsh is available in 9 languages: English, Japanese, Korean, Spanish, French, German, Chinese, Portuguese, and Arabic (with RTL support)."
           },
           "change": {
             "question": "How do I change the language?",
@@ -251,7 +251,7 @@
         },
         "fast": {
           "title": "Fast & Efficient",
-          "description": "Powered by modern web technologies, PDFCraft delivers lightning-fast PDF processing without the need for uploads or downloads."
+          "description": "Powered by modern web technologies, PDFtpsh delivers lightning-fast PDF processing without the need for uploads or downloads."
         },
         "accessible": {
           "title": "Accessible Everywhere",
@@ -259,7 +259,7 @@
         },
         "free": {
           "title": "Free Forever",
-          "description": "PDFCraft is completely free to use with no hidden costs, no registration required, and no limits on usage."
+          "description": "PDFtpsh is completely free to use with no hidden costs, no registration required, and no limits on usage."
         },
         "openSource": {
           "title": "Open Source",
@@ -458,7 +458,7 @@
   "workflow": {
     "title": "Éditeur de Flux de Travail PDF",
     "subtitle": "Créez des pipelines de traitement PDF personnalisés en connectant des outils",
-    "metaTitle": "Éditeur de Flux de Travail PDF - PDFCraft",
+    "metaTitle": "Éditeur de Flux de Travail PDF - PDFtpsh",
     "metaDescription": "Créez des pipelines de traitement PDF personnalisés en connectant visuellement des outils. Construisez, enregistrez et réutilisez vos flux de travail.",
     "toolbox": "Boîte à Outils",
     "dragToAdd": "Faites glisser les outils pour les ajouter au flux de travail",
