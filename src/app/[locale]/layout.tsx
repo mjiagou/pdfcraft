@@ -80,7 +80,7 @@ export default async function LocaleLayout({
           <meta name="color-scheme" content="light dark" />
           <style dangerouslySetInnerHTML={{ __html: 'html{scrollbar-gutter:stable}' }} />
         </head>
-        <body className={`${fontVariables} min-h-screen bg-background text-foreground antialiased font-sans`}>
+        <body suppressHydrationWarning className={`${fontVariables} min-h-screen bg-background text-foreground antialiased font-sans`}>
           <SkipLink targetId="main-content">Skip to main content</SkipLink>
           <GoogleAnalytics />
           <GoogleAdSense />
