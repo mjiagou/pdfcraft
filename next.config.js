@@ -48,7 +48,11 @@ const nextConfig = {
   },
 
   // Webpack configuration for WASM modules
-  webpack: (config, { isServer, webpack }) => {
+  webpack: (config, { isServer, webpack, dev }) => {
+    // In production/CI builds, disable webpack filesystem cache to prevent ENOSPC in memory/tmpfs constrained environments (such as EdgeOne Pages /dev/shm)
+    if (!dev) {
+      config.cache = false;
+    }
     // Handle qpdf-wasm and other modules that use Node.js built-ins
     if (!isServer) {
       config.resolve.fallback = {
