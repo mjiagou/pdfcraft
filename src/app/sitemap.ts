@@ -9,6 +9,7 @@ import { MetadataRoute } from 'next';
 import { siteConfig } from '@/config/site';
 import { locales, type Locale } from '@/lib/i18n/config';
 import { getAllTools } from '@/config/tools';
+import { getAllPosts } from '@/lib/blog';
 
 // Required for static export
 export const dynamic = 'force-static';
@@ -20,6 +21,8 @@ const PRIORITY = {
   home: 1.0,
   tools: 0.9,
   toolPage: 0.8,
+  blog: 0.8,
+  blogPost: 0.7,
   static: 0.6,
 } as const;
 
@@ -30,6 +33,8 @@ const CHANGE_FREQUENCY = {
   home: 'daily',
   tools: 'weekly',
   toolPage: 'weekly',
+  blog: 'daily',
+  blogPost: 'weekly',
   static: 'monthly',
 } as const;
 
@@ -39,6 +44,7 @@ const CHANGE_FREQUENCY = {
 const STATIC_PAGES = [
   { path: '', priority: PRIORITY.home, changeFrequency: CHANGE_FREQUENCY.home },
   { path: '/tools', priority: PRIORITY.tools, changeFrequency: CHANGE_FREQUENCY.tools },
+  { path: '/blog', priority: PRIORITY.blog, changeFrequency: CHANGE_FREQUENCY.blog },
   { path: '/about', priority: PRIORITY.static, changeFrequency: CHANGE_FREQUENCY.static },
   { path: '/faq', priority: PRIORITY.static, changeFrequency: CHANGE_FREQUENCY.static },
   { path: '/privacy', priority: PRIORITY.static, changeFrequency: CHANGE_FREQUENCY.static },
@@ -48,7 +54,7 @@ const STATIC_PAGES = [
 /**
  * Generate sitemap entries for a specific locale
  */
-function generateLocaleEntries(locale: Locale, lastModified: Date): MetadataRoute.Sitemap {
+async function generateLocaleEntries(locale: Locale, lastModified: Date): Promise<MetadataRoute.Sitemap> {
   const entries: MetadataRoute.Sitemap = [];
   
   // Add static pages
@@ -71,6 +77,19 @@ function generateLocaleEntries(locale: Locale, lastModified: Date): MetadataRout
       priority: PRIORITY.toolPage,
     });
   }
+
+  // Add blog posts
+  try {
+    const posts = await getAllPosts(locale);
+    for (const post of posts) {
+      entries.push({
+        url: `${siteConfig.url}/${locale}/blog/${post.slug}`,
+        lastModified: new Date(post.date),
+        changeFrequency: CHANGE_FREQUENCY.blogPost,
+        priority: PRIORITY.blogPost,
+      });
+    }
+  } catch (_) {}
   
   return entries;
 }
@@ -78,13 +97,13 @@ function generateLocaleEntries(locale: Locale, lastModified: Date): MetadataRout
 /**
  * Generate the complete sitemap
  */
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const lastModified = new Date();
   const allEntries: MetadataRoute.Sitemap = [];
   
   // Generate entries for each locale
   for (const locale of locales) {
-    const localeEntries = generateLocaleEntries(locale, lastModified);
+    const localeEntries = await generateLocaleEntries(locale, lastModified);
     allEntries.push(...localeEntries);
   }
   

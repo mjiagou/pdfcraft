@@ -19,6 +19,7 @@ export const Footer: React.FC<FooterProps> = ({ locale }) => {
   const pathname = usePathname();
 
   const footerLinks = [
+    { href: `/${locale}/blog`, label: t('navigation.blog') || (locale.startsWith('zh') ? '博客教程' : 'Blog') },
     { href: `/${locale}/about`, label: t('navigation.about') },
     { href: `/${locale}/faq`, label: t('navigation.faq') },
     { href: `/${locale}/privacy`, label: t('navigation.privacy') },

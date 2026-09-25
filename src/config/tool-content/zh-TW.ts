@@ -8,6 +8,7 @@ import { toolContentEn } from './en';
 
 import type { ToolContent } from '@/types/tool';
 
+export const toolContentZhTW: Record<string, ToolContent> = {
   // ==================== 熱門工具 ====================
   'pdf-multi-tool': {
     title: 'PDF多功能綜合工具箱 (合併/分割/旋轉/擷取一站式)',
@@ -31,19 +32,10 @@ import type { ToolContent } from '@/types/tool';
     ],
     faq: [
       { question: '處理大型 PDF 會有檔案大小限制嗎？', answer: 'TPSH PDF 在瀏覽器本地完成運算，沒有強制的伺服器大小限制，一般數十兆至數百兆的檔案均可流暢處理。' },
-      { question: '合併或分割後是否會丟失書籤？', answer: '工具會盡可能完整保留原檔案的目錄與書籤結構，確保閱讀體驗連貫。' },
-      { question: '為什麼比其他線上工具快很多？', answer: '因為無需等待緩慢的檔案網路載入與雲端下載，所有運算完全調用您裝置的本地 CPU 算力，秒級生效。' },
+      { question: '合併或分割後是否會丟失書籤？', answer: '工具會盡可能完整保留原檔案的目錄與書籤結構，確保閱讀體驗連貫。'       { question: '帶有密碼保護的檔案可以合併嗎？', answer: '受密碼保護加密的檔案請先使用本站的“解密PDF”工具解鎖後，再進行合併。' },
     ],
   },
-
-  'merge-pdf': {
-    title: 'PDF合併 - 免費線上將多個PDF合併為一個檔案 (無失真極速)',
-    metaDescription: '專業免費的線上PDF合併器：支援拖曳自由排序、保留原始清晰度與書籤目錄。100%瀏覽器本地極速拼接，檔案零上傳，保護您的商業隱私。',
-    keywords: ['合併pdf', 'pdf線上合併', '拼接pdf', 'pdf多合一', '組合pdf檔案', '免費pdf合併軟體', '免上傳合併pdf'],
-    description: `
-      <p>PDF 合併工具支援將多份分散的 PDF 檔案快速無縫地組合成一個連貫的單一檔案。無論整合合約附件、合併掃描單據還是匯編完整簡報材料，都能一鍵完成。</p>
-      <p>上傳檔案後，您可以直觀地拖曳縮圖自由調整前後順序。工具採用無損合併引擎，最大程度保留原檔案的高畫質向量文字、圖像品質及目錄索引。</p>
-      <p><strong>隱私零外洩：</strong>整個合併流程在您的電腦/手機瀏覽器記憶體中即時執行，絕不向雲端發送任何檔案位元組，財務與法律文件可放心使用。</p>
+�放心使用。</p>
     `,
     howToUse: [
       { step: 1, title: '載入待合併PDF', description: '批次將多個 PDF 檔案拖曳到網頁區域，或點擊按鈕從本地裝置選取。' },
