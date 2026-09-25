@@ -14,15 +14,14 @@ import type { ToolContent } from '@/types/tool';
  */
 export const toolContentVn: Record<string, ToolContent> = {
   "pdf-multi-tool": {
-    "title": "Công cụ đa năng PDF",
-    "metaDescription": "Công cụ chỉnh sửa PDF toàn diện: hợp nhất, tách, tổ chức, xóa, xoay và trích xuất trang trong một công cụ mạnh mẽ.",
+    "title": "Bộ công cụ PDF đa năng - Hợp nhất, tách, xoay và sắp xếp trang",
+    "metaDescription": "Trình chỉnh sửa trang PDF tất-cả-trong-một: ghép, tách, đổi thứ tự, xoay và trích xuất trang tức thì. Xử lý 100% cục bộ trong trình duyệt, không tải tệp lên máy chủ.",
     "keywords": [
-      "công cụ đa năng pdf",
-      "chỉnh sửa pdf",
-      "hợp nhất pdf",
-      "tách pdf",
-      "tổ chức pdf",
-      "tất cả trong một pdf"
+      "bo cong cu pdf da nang",
+      "trinh sua trang pdf",
+      "ghep va tach pdf",
+      "sap xep pdf",
+      "cong cu pdf rieng tu"
     ],
     "description": "\n      <p>Công cụ đa năng PDF là giải pháp toàn diện của bạn cho tất cả các tác vụ quản lý trang PDF. Công cụ toàn diện này kết hợp nhiều thao tác PDF thành một giao diện trực quan duy nhất, tiết kiệm thời gian và công sức của bạn.</p>\n      <p>Cho dù bạn cần hợp nhất nhiều tài liệu, tách PDF lớn thành các tệp nhỏ hơn, tổ chức lại các trang, xóa nội dung không mong muốn, xoay trang hoặc trích xuất các phần cụ thể, công cụ này xử lý tất cả mà không cần chuyển đổi giữa các ứng dụng khác nhau.</p>\n      <p>Tất cả quá trình xử lý diễn ra trực tiếp trong trình duyệt của bạn, đảm bảo tài liệu của bạn vẫn riêng tư và an toàn. Không có tệp nào được tải lên bất kỳ máy chủ nào.</p>\n    ",
     "howToUse": [
@@ -80,14 +79,14 @@ export const toolContentVn: Record<string, ToolContent> = {
     ]
   },
   "merge-pdf": {
-    "title": "Hợp nhất PDF",
-    "metaDescription": "Kết hợp nhiều tệp PDF thành một tài liệu. Công cụ hợp nhất PDF trực tuyến miễn phí với kéo và thả để sắp xếp lại.",
+    "title": "Ghép PDF - Kết hợp nhiều file PDF thành một trực tuyến miễn phí (Không tải lên)",
+    "metaDescription": "Dễ dàng kết hợp nhiều tệp PDF thành một tài liệu duy nhất. Kéo thả sắp xếp thứ tự trực quan, giữ nguyên chất lượng và bookmark gốc. Bảo mật tuyệt đối.",
     "keywords": [
-      "hợp nhất pdf",
-      "kết hợp pdf",
-      "nối pdf",
-      "công cụ hợp nhất pdf",
-      "ghép pdf"
+      "ghep pdf",
+      "noi pdf",
+      "hop nhat pdf",
+      "gop file pdf",
+      "ghep pdf truc tuyen mien phi"
     ],
     "description": "\n      <p>Hợp nhất PDF cho phép bạn kết hợp nhiều tài liệu PDF thành một tệp một cách nhanh chóng và dễ dàng. Cho dù bạn đang hợp nhất báo cáo, kết hợp tài liệu đã quét hay lắp ráp bản trình bày, công cụ này làm cho quá trình trở nên liền mạch.</p>\n      <p>Chỉ cần tải lên tệp của bạn, sắp xếp chúng theo thứ tự mong muốn bằng cách kéo và thả, và hợp nhất chúng thành một tài liệu mạch lạc. Công cụ bảo toàn chất lượng của tệp gốc và có thể bảo toàn đánh dấu trang từ mỗi tài liệu nguồn.</p>\n      <p>Tất cả quá trình hợp nhất diễn ra cục bộ trong trình duyệt của bạn, đảm bảo quyền riêng tư hoàn toàn cho tài liệu nhạy cảm của bạn.</p>\n    ",
     "howToUse": [
@@ -270,14 +269,14 @@ export const toolContentVn: Record<string, ToolContent> = {
     ]
   },
   "split-pdf": {
-    "title": "Tách PDF",
-    "metaDescription": "Tách tệp PDF thành nhiều tài liệu. Trích xuất trang cụ thể hoặc chia theo phạm vi trang.",
+    "title": "Tách PDF - Chia nhỏ và trích xuất trang PDF trực tuyến miễn phí",
+    "metaDescription": "Chia tệp PDF lớn thành nhiều tài liệu nhỏ hoặc trích xuất các trang cụ thể theo dải số trang. Xử lý cực nhanh trong bộ nhớ máy, không lo rò rỉ dữ liệu.",
     "keywords": [
-      "tách pdf",
-      "chia pdf",
-      "tách riêng pdf",
-      "trích xuất trang",
-      "công cụ tách pdf"
+      "tach pdf",
+      "chia nho file pdf",
+      "trich xuat trang pdf",
+      "cat pdf online",
+      "tach pdf mien phi"
     ],
     "description": "\n      <p>Tách PDF cho phép bạn chia một tài liệu PDF duy nhất thành nhiều tệp nhỏ hơn. Điều này hoàn hảo để trích xuất các chương cụ thể, tách các tài liệu kết hợp hoặc tạo tệp riêng cho mỗi PDF nhiều trang.</p>\n      <p>Bạn có thể tách theo phạm vi trang cụ thể, trích xuất trang riêng lẻ hoặc chia tài liệu theo khoảng thời gian đều đặn. Công cụ cung cấp xem trước trực quan của các trang của bạn, giúp dễ dàng chọn chính xác những gì bạn cần.</p>\n      <p>Tất cả quá trình xử lý được thực hiện cục bộ trong trình duyệt của bạn, đảm bảo tài liệu của bạn vẫn riêng tư và an toàn.</p>\n    ",
     "howToUse": [
@@ -335,14 +334,14 @@ export const toolContentVn: Record<string, ToolContent> = {
     ]
   },
   "compress-pdf": {
-    "title": "Nén PDF",
-    "metaDescription": "Giảm kích thước tệp PDF trong khi duy trì chất lượng. Công cụ nén PDF trực tuyến miễn phí cho tệp nhỏ hơn.",
+    "title": "Nén PDF - Giảm dung lượng file PDF trực tuyến giữ nguyên chất lượng",
+    "metaDescription": "Tối ưu hóa dung lượng tệp PDF lên tới 80% mà chữ và hình ảnh vẫn sắc nét. Lý tưởng để gửi qua email hoặc nộp hồ sơ trực tuyến có giới hạn dung lượng.",
     "keywords": [
-      "nén pdf",
-      "giảm kích thước pdf",
-      "công cụ nén pdf",
-      "thu nhỏ pdf",
-      "tối ưu hóa pdf"
+      "nen pdf",
+      "giam dung luong pdf",
+      "thu nho file pdf",
+      "toi uu hoa pdf",
+      "nen pdf mien phi"
     ],
     "description": "\n      <p>Nén PDF giảm kích thước tệp của tài liệu PDF của bạn trong khi duy trì chất lượng chấp nhận được. Điều này cần thiết cho tệp đính kèm email, tải lên web hoặc tiết kiệm dung lượng lưu trữ.</p>\n      <p>Công cụ cung cấp nhiều mức nén để cân bằng giữa giảm kích thước tệp và bảo toàn chất lượng. Bạn có thể chọn nén tích cực để giảm kích thước tối đa hoặc nén nhẹ để duy trì chất lượng cao hơn.</p>\n      <p>Tất cả nén diễn ra trong trình duyệt của bạn, đảm bảo tài liệu của bạn không bao giờ rời khỏi thiết bị của bạn.</p>\n    ",
     "howToUse": [
@@ -6552,7 +6551,7 @@ export const toolContentVn: Record<string, ToolContent> = {
       },
       {
         "question": "Can I customize the stamp design?",
-        "answer": "Yes. We provide multiple designs like the PDFCraft watermark or a Royal crest, and you can adjust the wax melting radius and normal-map indentation depth in the panel."
+        "answer": "Yes. We provide multiple designs like the TPSH PDF watermark or a Royal crest, and you can adjust the wax melting radius and normal-map indentation depth in the panel."
       }
     ]
   },

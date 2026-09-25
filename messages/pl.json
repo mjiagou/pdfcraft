@@ -1,28 +1,28 @@
 {
   "metadata": {
     "home": {
-      "title": "PDFCraft — profesjonalne narzędzia PDF",
-      "description": "Bezpłatne, prywatne narzędzia działające w przeglądarce. Łącz, edytuj i przetwarzaj pliki PDF online bez przesyłania ich na serwery."
+      "title": "TPSH PDF - Darmowe Narzędzia i Edytor PDF Online | 100% Prywatności i Lokalnie",
+      "description": "TPSH PDF (pdf.tpsh.cc) to zaawansowany zestaw narzędzi PDF działający bezpośrednio w przeglądarce dzięki WebAssembly. Łącz, dziel, kompresuj, konwertuj i podpisuj PDF bez wysyłania plików na serwer. 100% prywatności."
     },
     "tools": {
-      "title": "Wszystkie narzędzia PDF",
-      "description": "Przeglądaj wszystkie ponad 67 profesjonalnych narzędzi PDF. Łącz, dziel, kompresuj, konwertuj, edytuj i zabezpieczaj swoje pliki PDF za darmo."
+      "title": "Wszystkie Narzędzia PDF (Ponad 67 Darmowych Funkcji) - TPSH PDF",
+      "description": "Przeglądaj ponad 67 profesjonalnych narzędzi PDF: łączenie, dzielenie, kompresja, konwersja do Word/obrazów, obracanie stron i podpisywanie bez instalacji oprogramowania."
     },
     "about": {
-      "title": "O PDFCraft",
-      "description": "Dowiedz się o PDFCraft — darmowym, prywatnym i zaawansowanym zestawie narzędzi PDF. Całe przetwarzanie odbywa się w Twojej przeglądarce."
+      "title": "O TPSH PDF - Bezpieczne i Prywatne Przetwarzanie PDF w Przeglądarce",
+      "description": "Dowiedz się więcej o TPSH PDF: koniec z czekaniem na wysyłanie plików i ryzykiem wycieku danych dzięki WebAssembly."
     },
     "faq": {
-      "title": "Często zadawane pytania",
-      "description": "Znajdź odpowiedzi na często zadawane pytania dotyczące PDFCraft. Dowiedz się, jak efektywnie korzystać z naszych narzędzi PDF."
+      "title": "Często Zadawane Pytania (FAQ) - Centrum Pomocy TPSH PDF",
+      "description": "Odpowiedzi na pytania o bezpieczeństwo plików, szybkość, limity rozmiaru oraz formaty w TPSH PDF."
     },
     "privacy": {
-      "title": "Polityka prywatności",
-      "description": "Polityka prywatności PDFCraft. Twoje pliki nigdy nie opuszczają Twojego urządzenia – całe przetwarzanie odbywa się lokalnie w Twojej przeglądarce."
+      "title": "Polityka Prywatności i Bezpieczeństwo - TPSH PDF",
+      "description": "Twoje pliki w 100% pozostają w pamięci Twojej przeglądarki i nigdy nie trafiają na zewnętrzne serwery."
     },
     "contact": {
-      "title": "Skontaktuj się z nami",
-      "description": "Skontaktuj się z zespołem PDFCraft. Chcielibyśmy usłyszeć od ciebie."
+      "title": "Kontakt i Opinie - TPSH PDF",
+      "description": "Skontaktuj się z zespołem TPSH PDF, aby zgłosić pomysły, błędy lub propozycje współpracy."
     },
     "keywords": {
       "pdfTools": "narzędzia PDF",
@@ -35,13 +35,13 @@
     }
   },
   "common": {
-    "brand": "PDFCraft",
-    "tagline": "Profesjonalne narzędzia PDF — bezpłatne i prywatne",
+    "brand": "TPSH PDF",
+    "tagline": "Przetwarzanie 100% Lokalne · Bez Wysyłania na Serwer · Prywatność",
     "navigation": {
       "home": "Strona główna",
       "tools": "Narzędzia",
       "workflow": "Przepływ pracy",
-      "about": "O PDFCraft",
+      "about": "O TPSH PDF",
       "faq": "Często zadawane pytania",
       "privacy": "Prywatność",
       "contact": "Kontakt"
@@ -83,10 +83,10 @@
       "loading": "Ładowanie..."
     },
     "footer": {
-      "footer": "© 2025 PDFCraft. Wszelkie prawa zastrzeżone.",
-      "copyright": "© {year} PDFCraft. Wszelkie prawa zastrzeżone.",
-      "privacyBadge": "100% prywatności — pliki nigdy nie opuszczają Twojego urządzenia",
-      "madeWith": "Wykonane z <Heart /> i <Nextjs />"
+      "footer": "© 2026 TPSH PDF. Wszelkie prawa zastrzeżone.",
+      "copyright": "© {year} TPSH PDF (pdf.tpsh.cc). Wszelkie prawa zastrzeżone.",
+      "privacyBadge": "100% Prywatności - Pliki nigdy nie opuszczają Twojego urządzenia",
+      "madeWith": "Made with <Heart /> and WebAssembly"
     },
     "recentFiles": {
       "title": "Najnowsze pliki",
@@ -129,7 +129,7 @@
       "finish": "Zakończ",
       "skip": "Pomiń",
       "stepOf": "z",
-      "welcomeTitle": "Witamy w PDFCraft!",
+      "welcomeTitle": "Witamy w TPSH PDF!",
       "welcomeMessage": "Czy chcesz skorzystać z krótkiego przewodnika i dowiedzieć się, jak korzystać z naszych narzędzi PDF? To zajmie tylko minutę.",
       "helpButton": "Przewodnik po aplikacji"
     },
@@ -504,7 +504,7 @@
       "bronzeWax": "Antyczny karmazynowy brąz",
       "enableDoubleKey": "Włącz szyfrowanie podwójnym kluczem certyfikatu (256-bitowa silna blokada)",
       "decryptPasswordHelp": "Ustaw hasło klucza deszyfrującego PFX",
-      "passwordPlaceholder": "Domyślne hasło: pdfcraft",
+      "passwordPlaceholder": "Domyślne hasło: tpshpdf",
       "sealCoordinates": "Współrzędne pieczęci: X: {x}px, Y: {y}px",
       "clickToReposition": "Kliknij w dowolnym miejscu, aby zmienić położenie pieczęci woskowej"
     },
@@ -680,7 +680,7 @@
       "copyText": "Kopiuj rozpoznany tekst",
       "copied": "Skopiowano do schowka!",
       "openInEditor": "Edytuj w edytorze PDF",
-      "openInEditorDesc": "Bezpośrednio edytuj tekst i układ w edytorze PDFCraft bez pobierania",
+      "openInEditorDesc": "Bezpośrednio edytuj tekst i układ w edytorze TPSH PDF bez pobierania",
       "statsPages": "Strony",
       "statsWords": "Słowa",
       "statsChars": "Znaki",
@@ -940,7 +940,7 @@
       "errorTitle": "Nie można sprawdzić aktualizacji",
       "retry": "Ponów próbę",
       "latest": "Wszystko jest aktualne!",
-      "latestDesc": "PDFCraft jest obecnie w najnowszej wersji ({version}).",
+      "latestDesc": "TPSH PDF jest obecnie w najnowszej wersji ({version}).",
       "available": "Dostępna nowa wersja",
       "currentVersion": "Bieżąca wersja",
       "released": "Wydano",
@@ -998,16 +998,16 @@
     "sections": {
       "general": {
         "whatIs": {
-          "question": "Co to jest PDFCraft?",
-          "answer": "PDFCraft to bezpłatny, dbający o prywatność zestaw narzędzi PDF, który działa całkowicie w przeglądarce. Oferuje ponad 80 profesjonalnych narzędzi do edycji, konwertowania, łączenia, dzielenia i zabezpieczania plików PDF bez przesyłania ich na jakikolwiek serwer."
+          "question": "Co to jest TPSH PDF?",
+          "answer": "TPSH PDF to bezpłatny, dbający o prywatność zestaw narzędzi PDF, który działa całkowicie w przeglądarce. Oferuje ponad 80 profesjonalnych narzędzi do edycji, konwertowania, łączenia, dzielenia i zabezpieczania plików PDF bez przesyłania ich na jakikolwiek serwer."
         },
         "isFree": {
-          "question": "Czy PDFCraft jest naprawdę darmowy?",
-          "answer": "Tak, korzystanie z PDFCraft jest całkowicie bezpłatne. Nie ma żadnych ukrytych kosztów, żadnych poziomów premium i nie jest wymagana rejestracja. Wszystkie funkcje są dostępne dla każdego."
+          "question": "Czy TPSH PDF jest naprawdę darmowy?",
+          "answer": "Tak, korzystanie z TPSH PDF jest całkowicie bezpłatne. Nie ma żadnych ukrytych kosztów, żadnych poziomów premium i nie jest wymagana rejestracja. Wszystkie funkcje są dostępne dla każdego."
         },
         "account": {
           "question": "Czy muszę zakładać konto?",
-          "answer": "Nie, nie musisz tworzyć konta ani rejestrować się, aby korzystać z PDFCraft. Wystarczy wejść na stronę i od razu zacząć korzystać z dowolnego narzędzia."
+          "answer": "Nie, nie musisz tworzyć konta ani rejestrować się, aby korzystać z TPSH PDF. Wystarczy wejść na stronę i od razu zacząć korzystać z dowolnego narzędzia."
         }
       },
       "privacy": {
@@ -1016,8 +1016,8 @@
           "answer": "Nie, Twoje pliki nigdy nie są przesyłane na żaden serwer. Całe przetwarzanie PDF odbywa się lokalnie w Twojej przeglądarce przy użyciu JavaScript i WebAssembly. Twoje pliki nigdy nie opuszczają Twojego urządzenia."
         },
         "safe": {
-          "question": "Czy używanie PDFCraft w przypadku poufnych dokumentów jest bezpieczne?",
-          "answer": "Tak, PDFCraft został zaprojektowany z myślą o prywatności. Ponieważ całe przetwarzanie odbywa się lokalnie w Twojej przeglądarce, Twoje wrażliwe dokumenty pozostają na Twoim urządzeniu i nigdy nie są przesyłane przez Internet."
+          "question": "Czy używanie TPSH PDF w przypadku poufnych dokumentów jest bezpieczne?",
+          "answer": "Tak, TPSH PDF został zaprojektowany z myślą o prywatności. Ponieważ całe przetwarzanie odbywa się lokalnie w Twojej przeglądarce, Twoje wrażliwe dokumenty pozostają na Twoim urządzeniu i nigdy nie są przesyłane przez Internet."
         },
         "storage": {
           "question": "Co dzieje się z moimi plikami po przetworzeniu?",
@@ -1027,7 +1027,7 @@
       "features": {
         "operations": {
           "question": "Jakie operacje na plikach PDF mogę wykonać?",
-          "answer": "PDFCraft oferuje ponad 67 narzędzi, w tym: łączenie, dzielenie, kompresowanie, konwertowanie (do/z obrazów, tekstu, JSON), edytowanie, dodawanie adnotacji, podpisywanie, dodawanie znaków wodnych, szyfrowanie/deszyfrowanie, OCR i wiele innych."
+          "answer": "TPSH PDF oferuje ponad 67 narzędzi, w tym: łączenie, dzielenie, kompresowanie, konwertowanie (do/z obrazów, tekstu, JSON), edytowanie, dodawanie adnotacji, podpisywanie, dodawanie znaków wodnych, szyfrowanie/deszyfrowanie, OCR i wiele innych."
         },
         "merge": {
           "question": "Czy mogę połączyć wiele plików PDF?",
@@ -1035,17 +1035,17 @@
         },
         "images": {
           "question": "Czy mogę przekonwertować obrazy na PDF?",
-          "answer": "Tak, PDFCraft obsługuje konwersję różnych formatów obrazów (JPG, PNG, WebP, BMP, TIFF, SVG, HEIC) do PDF. Możesz konwertować jeden lub wiele obrazów jednocześnie."
+          "answer": "Tak, TPSH PDF obsługuje konwersję różnych formatów obrazów (JPG, PNG, WebP, BMP, TIFF, SVG, HEIC) do PDF. Możesz konwertować jeden lub wiele obrazów jednocześnie."
         },
         "edit": {
           "question": "Czy mogę edytować tekst w PDF?",
-          "answer": "PDFCraft zapewnia narzędzia do adnotacji i edycji, w tym wyróżnianie, dodawanie tekstu, kształtów, obrazów i podpisów. Do edycji pełnego tekstu narzędzie PDF Editor oferuje wszechstronne możliwości dodawania adnotacji."
+          "answer": "TPSH PDF zapewnia narzędzia do adnotacji i edycji, w tym wyróżnianie, dodawanie tekstu, kształtów, obrazów i podpisów. Do edycji pełnego tekstu narzędzie PDF Editor oferuje wszechstronne możliwości dodawania adnotacji."
         }
       },
       "technical": {
         "browsers": {
           "question": "Jakie przeglądarki są obsługiwane?",
-          "answer": "PDFCraft działa we wszystkich nowoczesnych przeglądarkach, w tym Chrome, Firefox, Safari i Edge. Aby uzyskać najlepszą jakość, zalecamy korzystanie z najnowszej wersji przeglądarki."
+          "answer": "TPSH PDF działa we wszystkich nowoczesnych przeglądarkach, w tym Chrome, Firefox, Safari i Edge. Aby uzyskać najlepszą jakość, zalecamy korzystanie z najnowszej wersji przeglądarki."
         },
         "sizeLimit": {
           "question": "Czy istnieje limit rozmiaru pliku?",
@@ -1056,14 +1056,14 @@
           "answer": "Ponieważ całe przetwarzanie odbywa się w Twojej przeglądarce, wydajność zależy od możliwości Twojego urządzenia. Duże pliki wymagają więcej pamięci i mocy obliczeniowej. Aby uzyskać najlepsze wyniki, zamknij inne karty i aplikacje przeglądarki."
         },
         "offline": {
-          "question": "Czy PDFCraft działa w trybie offline?",
-          "answer": "Obecnie PDFCraft wymaga połączenia internetowego, aby załadować aplikację. Jednak po załadowaniu samo przetwarzanie odbywa się lokalnie i nie wymaga połączenia."
+          "question": "Czy TPSH PDF działa w trybie offline?",
+          "answer": "Obecnie TPSH PDF wymaga połączenia internetowego, aby załadować aplikację. Jednak po załadowaniu samo przetwarzanie odbywa się lokalnie i nie wymaga połączenia."
         }
       },
       "languages": {
         "supported": {
           "question": "Jakie języki są obsługiwane?",
-          "answer": "PDFCraft jest dostępny w 9 językach: angielskim, japońskim, koreańskim, hiszpańskim, francuskim, niemieckim, chińskim, portugalskim i arabskim (z obsługą RTL)."
+          "answer": "TPSH PDF jest dostępny w 9 językach: angielskim, japońskim, koreańskim, hiszpańskim, francuskim, niemieckim, chińskim, portugalskim i arabskim (z obsługą RTL)."
         },
         "change": {
           "question": "Jak zmienić język?",
@@ -1094,7 +1094,7 @@
       },
       "fast": {
         "title": "Szybki i wydajny",
-        "description": "Oparty na nowoczesnych technologiach internetowych, PDFCraft zapewnia błyskawiczne przetwarzanie PDF bez konieczności przesyłania lub pobierania."
+        "description": "Oparty na nowoczesnych technologiach internetowych, TPSH PDF zapewnia błyskawiczne przetwarzanie PDF bez konieczności przesyłania lub pobierania."
       },
       "accessible": {
         "title": "Dostępne wszędzie",
@@ -1102,7 +1102,7 @@
       },
       "free": {
         "title": "Bezpłatne na zawsze",
-        "description": "PDFCraft jest całkowicie darmowy, bez ukrytych kosztów, bez wymaganej rejestracji i bez ograniczeń użytkowania."
+        "description": "TPSH PDF jest całkowicie darmowy, bez ukrytych kosztów, bez wymaganej rejestracji i bez ograniczeń użytkowania."
       },
       "openSource": {
         "title": "Otwarte źródło",
@@ -1140,7 +1140,7 @@
       "email": {
         "title": "E-mail",
         "description": "Wyślij nam e-mail, a my odpowiemy w ciągu 24-48 godzin.",
-        "action": "kontakt@pdfcraft.app"
+        "action": "kontakt@tpsh_pdf.app"
       },
       "github": {
         "title": "GitHub",
@@ -1150,7 +1150,7 @@
       "twitter": {
         "title": "Twitter",
         "description": "Śledź nas, aby otrzymywać aktualizacje i ogłoszenia.",
-        "action": "@pdfcraft"
+        "action": "@tpsh_pdf"
       }
     },
     "form": {
@@ -1282,7 +1282,7 @@
   "workflow": {
     "title": "Kreator przepływów pracy PDF",
     "subtitle": "Twórz własne przepływy przetwarzania PDF, łącząc narzędzia",
-    "metaTitle": "Kreator przepływów pracy PDF — PDFCraft",
+    "metaTitle": "Kreator przepływów pracy PDF — TPSH PDF",
     "metaDescription": "Twórz własne przepływy przetwarzania PDF, wizualnie łącząc narzędzia. Twórz, zapisuj i ponownie wykorzystuj swoje przepływy pracy.",
     "toolbox": "Narzędzia",
     "dragToAdd": "Przeciągnij lub kliknij dwukrotnie narzędzie, aby dodać je do przepływu pracy",

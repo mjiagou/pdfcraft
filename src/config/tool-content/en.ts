@@ -13,50 +13,50 @@ import { ToolContent } from '@/types/tool';
 export const toolContentEn: Record<string, ToolContent> = {
   // ==================== POPULAR TOOLS ====================
   'pdf-multi-tool': {
-    title: 'PDF Multi Tool',
-    metaDescription: 'All-in-one PDF editor: merge, split, organize, delete, rotate, and extract pages in one powerful tool.',
-    keywords: ['pdf multi tool', 'pdf editor', 'merge pdf', 'split pdf', 'organize pdf', 'all in one pdf'],
+    title: 'PDF Multi-Tool - All-in-One Page Organizer & Editor',
+    metaDescription: 'Free browser-based PDF suite: merge, split, reorder, delete, rotate, and extract PDF pages instantly. 100% private, client-side WebAssembly processing without file uploads.',
+    keywords: ['pdf multi tool', 'all in one pdf editor', 'merge and split pdf', 'organize pdf pages', 'browser pdf editor', 'private pdf toolkit'],
     description: `
-      <p>The PDF Multi Tool is your comprehensive solution for all PDF page management tasks. This powerful all-in-one tool combines multiple PDF operations into a single, intuitive interface, saving you time and effort.</p>
-      <p>Whether you need to merge multiple documents, split a large PDF into smaller files, reorganize pages, delete unwanted content, rotate pages, or extract specific sections, this tool handles it all without switching between different applications.</p>
-      <p>All processing happens directly in your browser, ensuring your documents remain private and secure. No files are uploaded to any server.</p>
+      <p>The TPSH PDF Multi-Tool is your comprehensive, all-in-one solution for PDF page management. Instead of hopping across multiple websites or desktop utilities, manage your entire document structure in one unified interface.</p>
+      <p>Merge multiple files, divide massive files into chapters, reorder pages with intuitive drag-and-drop, rotate sideways scans, or extract specific pages within seconds.</p>
+      <p><strong>100% Privacy Guarantee:</strong> Powered by WebAssembly, every operation executes locally inside your web browser. Your confidential files are never transmitted to remote servers.</p>
     `,
     howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file into the upload area, or click to browse and select files from your device.' },
-      { step: 2, title: 'Choose Your Operation', description: 'Select from the available operations: merge, split, organize, delete pages, rotate, add blank pages, or extract pages.' },
-      { step: 3, title: 'Configure Options', description: 'Adjust settings specific to your chosen operation, such as page ranges, rotation angles, or merge order.' },
-      { step: 4, title: 'Process and Download', description: 'Click the process button and download your modified PDF once the operation completes.' },
+      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file into the upload zone, or click to browse from your device.' },
+      { step: 2, title: 'Choose Your Operation', description: 'Select your desired action: merge, split, reorder, delete pages, rotate, or extract specific pages.' },
+      { step: 3, title: 'Configure Options', description: 'Fine-tune rotation degrees, page numbers, or file sequence.' },
+      { step: 4, title: 'Process and Download', description: 'Click process to render your PDF locally and download the finished document instantly.' },
     ],
     useCases: [
-      { title: 'Document Preparation', description: 'Prepare documents for submission by removing unnecessary pages, reordering content, and combining multiple files.', icon: 'file-check' },
-      { title: 'Report Assembly', description: 'Combine multiple report sections, add cover pages, and organize chapters into a single professional document.', icon: 'book-open' },
-      { title: 'Archive Management', description: 'Split large archive files into manageable sections, extract relevant pages, and reorganize historical documents.', icon: 'archive' },
+      { title: 'Document Preparation', description: 'Clean up documents before submission by deleting blank pages and rotating orientation.', icon: 'file-check' },
+      { title: 'Report Assembly', description: 'Combine separate departmental reports into a single, cohesive business presentation.', icon: 'book-open' },
+      { title: 'Archive Management', description: 'Split legacy archives into manageable files and extract specific historical records.', icon: 'archive' },
     ],
     faq: [
-      { question: 'How many PDFs can I process at once?', answer: 'You can upload and process up to 10 PDF files simultaneously, with a combined maximum size of 500MB.' },
-      { question: 'Will my bookmarks be preserved?', answer: 'Yes, when merging PDFs, the tool preserves existing bookmarks and can optionally combine them into a unified bookmark structure.' },
-      { question: 'Is there a page limit?', answer: 'There is no strict page limit. The tool can handle documents with hundreds of pages, though very large files may take longer to process.' },
+      { question: 'Is there a file size limit?', answer: 'Because all processing happens on your local device CPU and RAM, there is no arbitrary cloud upload file size cap.' },
+      { question: 'Will my bookmarks be preserved?', answer: 'Yes, existing table-of-contents and bookmarks are maintained whenever structurally possible.' },
+      { question: 'Why is it faster than other online tools?', answer: 'No time is wasted uploading hundreds of megabytes to a remote server; processing begins immediately inside your browser.' },
     ],
   },
 
   'merge-pdf': {
-    title: 'Merge PDF',
-    metaDescription: 'Combine multiple PDF files into one document. Free online PDF merger with drag-and-drop reordering.',
-    keywords: ['merge pdf', 'combine pdf', 'join pdf', 'pdf merger', 'concatenate pdf'],
+    title: 'Merge PDF Online - Free Tool to Combine Multiple PDF Files',
+    metaDescription: 'Easily combine multiple PDFs into one document online for free. Drag and drop reordering, preserve original quality & bookmarks. 100% client-side privacy.',
+    keywords: ['merge pdf online', 'combine pdf files', 'join pdf documents', 'free pdf merger', 'concatenate pdf', 'private pdf joiner'],
     description: `
-      <p>Merge PDF allows you to combine multiple PDF documents into a single file quickly and easily. Whether you're consolidating reports, combining scanned documents, or assembling a presentation, this tool makes the process seamless.</p>
-      <p>Simply upload your files, arrange them in your desired order using drag-and-drop, and merge them into one cohesive document. The tool preserves the quality of your original files and can optionally maintain bookmarks from each source document.</p>
-      <p>All merging happens locally in your browser, ensuring complete privacy for your sensitive documents.</p>
+      <p>Merge PDF allows you to effortlessly combine multiple PDF documents into a clean, unified document. Perfect for consolidating business reports, contract attachments, or scanned receipts.</p>
+      <p>Simply upload your documents, rearrange thumbnails into the exact order you need, and generate your merged file. Output files retain original vector clarity, images, and internal navigation.</p>
+      <p><strong>Absolute Data Privacy:</strong> All file merging occurs directly within your browser. Sensitive financial, legal, or personal data never leaves your computer.</p>
     `,
     howToUse: [
-      { step: 1, title: 'Upload PDF Files', description: 'Drag and drop multiple PDF files into the upload area, or click to select files from your device.' },
-      { step: 2, title: 'Arrange Order', description: 'Drag and drop the file thumbnails to arrange them in your desired order.' },
-      { step: 3, title: 'Merge and Download', description: 'Click the Merge button to combine all files, then download your merged PDF.' },
+      { step: 1, title: 'Select PDF Files', description: 'Drag and drop your PDFs into the merge area or click to select from your local drive.' },
+      { step: 2, title: 'Arrange Order', description: 'Drag the visual page cards to place documents in your preferred reading sequence.' },
+      { step: 3, title: 'Merge & Download', description: 'Click Merge PDF to assemble the files in memory and download your output immediately.' },
     ],
     useCases: [
-      { title: 'Combine Reports', description: 'Merge monthly or quarterly reports into a single annual document for easier distribution and archiving.', icon: 'file-text' },
-      { title: 'Assemble Portfolios', description: 'Combine multiple project documents, certificates, or work samples into a professional portfolio.', icon: 'briefcase' },
-      { title: 'Consolidate Invoices', description: 'Merge multiple invoices or receipts into one document for accounting and record-keeping purposes.', icon: 'receipt' },
+      { title: 'Annual Financial Filing', description: 'Combine quarterly statements and audit receipts into a single comprehensive PDF file.', icon: 'file-text' },
+      { title: 'Professional Portfolios', description: 'Combine resumes, certificates, and work samples into one elegant presentation.', icon: 'briefcase' },
+      { title: 'Invoice Consolidation', description: 'Bundle multiple vendor receipts into one unified document for expedited accounting.', icon: 'receipt' },
     ],
     faq: [
       { question: 'How many PDFs can I merge?', answer: 'You can merge up to 100 PDF files at once, with a total combined size of up to 500MB.' },
@@ -2975,7 +2975,7 @@ export const toolContentEn: Record<string, ToolContent> = {
     faq: [
       { question: 'Is the wax seal just an image or a real signature?', answer: 'Both. The system renders an incredibly realistic 3D wax imprint with normal-mapped depth (visual layer) and encodes an authentic, tamper-proof PKCS#7 cryptographic signature inside the PDF (data layer).' },
       { question: 'What is "Certificate-based Encryption"?', answer: 'It is a passwordless encryption technique. You encrypt the file using the recipient\'s public key. The reader automatically searches for their local private certificate to decrypt the file seamlessly, ensuring robust security.' },
-      { question: 'Can I customize the stamp design?', answer: 'Yes. We provide multiple designs like the PDFCraft watermark or a Royal crest, and you can adjust the wax melting radius and normal-map indentation depth in the panel.' },
+      { question: 'Can I customize the stamp design?', answer: 'Yes. We provide multiple designs like the TPSH PDF watermark or a Royal crest, and you can adjust the wax melting radius and normal-map indentation depth in the panel.' },
     ],
   },
   'passport-id-composer': {

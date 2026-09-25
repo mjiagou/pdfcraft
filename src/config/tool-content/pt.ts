@@ -11,15 +11,14 @@ import { toolContentEn } from './en';
  */
 export const toolContentPt: Record<string, ToolContent> = {
   "pdf-multi-tool": {
-    "title": "Multi-Ferramenta PDF",
-    "metaDescription": "Editor PDF tudo-em-um: juntar, dividir, organizar, excluir, girar e extrair páginas em uma única ferramenta poderosa.",
+    "title": "Ferramenta PDF multifuncional - Juntar, dividir, girar e organizar",
+    "metaDescription": "Editor completo de páginas PDF no navegador: junte, divida, reorganize, gire e extraia páginas num instante. Processamento 100% local sem envio para servidores.",
     "keywords": [
-      "multi ferramenta pdf",
-      "editor pdf online",
-      "juntar pdf",
-      "dividir pdf",
-      "organizar pdf",
-      "tudo em um pdf"
+      "ferramenta pdf multifuncional",
+      "organizador pdf",
+      "juntar e dividir pdf",
+      "editor pdf local",
+      "pdf privado"
     ],
     "description": "\n      <p>A Multi-Ferramenta PDF é sua solução completa para todas as tarefas de gerenciamento de páginas PDF. Esta poderosa ferramenta combina múltiplas operações em uma interface única e intuitiva, economizando seu tempo e esforço.</p>\n      <p>Seja para mesclar vários documentos, dividir um PDF grande em arquivos menores, reorganizar páginas, excluir conteúdo indesejado, girar páginas ou extrair seções específicas, esta ferramenta faz tudo sem que você precise alternar entre diferentes aplicativos.</p>\n      <p>Todo o processamento acontece diretamente no seu navegador, garantindo que seus documentos permaneçam privados e seguros. Nenhum arquivo é carregado em nossos servidores.</p>\n    ",
     "howToUse": [
@@ -77,14 +76,14 @@ export const toolContentPt: Record<string, ToolContent> = {
     ]
   },
   "merge-pdf": {
-    "title": "Juntar PDF",
-    "metaDescription": "Combine vários arquivos PDF em um único documento. Mesclador de PDF online gratuito com reordenação por arrastar e soltar.",
+    "title": "Juntar PDF - Combinar múltiplos arquivos PDF online grátis e seguro",
+    "metaDescription": "Combine vários documentos PDF num único arquivo de forma rápida e segura. Arraste e solte para ordenar, mantendo a qualidade original. Privacidade absoluta.",
     "keywords": [
       "juntar pdf",
       "combinar pdf",
-      "mesclar pdf",
       "unir pdf",
-      "agrupar pdf"
+      "mesclar pdf",
+      "juntar arquivos pdf online"
     ],
     "description": "\n      <p>Juntar PDF permite combinar vários documentos PDF em um único arquivo de forma rápida e fácil. Seja para consolidar relatórios ou montar uma apresentação, esta ferramenta torna o processo perfeito.</p>\n      <p>Basta carregar seus arquivos, organizá-los na ordem desejada e mesclá-los. A ferramenta preserva a qualidade original e mantém os marcadores de cada documento fonte.</p>\n    ",
     "howToUse": [
@@ -137,13 +136,14 @@ export const toolContentPt: Record<string, ToolContent> = {
     ]
   },
   "split-pdf": {
-    "title": "Dividir PDF",
-    "metaDescription": "Divida arquivos PDF em vários documentos. Extraia páginas específicas ou divida por intervalos.",
+    "title": "Dividir PDF - Extrair e separar páginas de PDF online gratuitamente",
+    "metaDescription": "Divida PDFs grandes em vários arquivos menores ou extraia páginas específicas por intervalo. Processamento instantâneo sem necessidade de cadastro.",
     "keywords": [
       "dividir pdf",
       "separar pdf",
-      "extrair páginas pdf",
-      "cortar pdf"
+      "extrair paginas pdf",
+      "cortar pdf online",
+      "divisor pdf gratis"
     ],
     "description": "\n      <p>Dividir PDF permite separar um único documento em vários arquivos menores. Perfeito para extrair capítulos específicos ou separar documentos que foram digitalizados juntos.</p>\n    ",
     "howToUse": [
@@ -196,13 +196,14 @@ export const toolContentPt: Record<string, ToolContent> = {
     ]
   },
   "compress-pdf": {
-    "title": "Comprimir PDF",
-    "metaDescription": "Reduza o tamanho do arquivo PDF mantendo a qualidade. Compressor de PDF online gratuito para arquivos menores.",
+    "title": "Comprimir PDF - Reduzir o tamanho de arquivos PDF online (100% privado)",
+    "metaDescription": "Diminua o tamanho de seus PDFs mantendo ótima nitidez e qualidade de imagem. Perfeito para anexos de e-mail e uploads com limite de tamanho.",
     "keywords": [
       "comprimir pdf",
       "reduzir tamanho pdf",
+      "diminuir peso pdf",
       "otimizar pdf",
-      "diminuir arquivo pdf"
+      "compressor pdf gratis"
     ],
     "description": "\n      <p>Comprimir PDF reduz o tamanho dos seus documentos, ideal para anexos de e-mail ou uploads na web. Oferecemos vários níveis de compressão para equilibrar tamanho e qualidade.</p>\n    ",
     "howToUse": [
@@ -3642,7 +3643,7 @@ export const toolContentPt: Record<string, ToolContent> = {
       },
       {
         "question": "Can I customize the stamp design?",
-        "answer": "Yes. We provide multiple designs like the PDFCraft watermark or a Royal crest, and you can adjust the wax melting radius and normal-map indentation depth in the panel."
+        "answer": "Yes. We provide multiple designs like the TPSH PDF watermark or a Royal crest, and you can adjust the wax melting radius and normal-map indentation depth in the panel."
       }
     ]
   },

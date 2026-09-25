@@ -1,28 +1,28 @@
 {
   "metadata": {
     "home": {
-      "title": "PDFCraft - 專業 PDF 工具",
-      "description": "免費、私密、基於瀏覽器。線上合併、編輯 PDF 檔案，無需上傳到伺服器。"
+      "title": "TPSH PDF - 免費線上PDF轉換與編輯神器 | 100%本地安全不需上傳",
+      "description": "TPSH PDF (pdf.tpsh.cc) 是一款基於WebAssembly技術的純前端線上PDF工具箱。支援PDF合併、分割、無失真壓縮、格式轉換、浮水印與電子簽名等67+款專業工具。全程本地處理，檔案不需上傳伺服器，零隱私外洩風險，極速且免費。"
     },
     "tools": {
-      "title": "所有 PDF 工具",
-      "description": "瀏覽 67+ 款專業 PDF 工具。免費合併、分割、壓縮、轉換、編輯和保護您的 PDF 檔案。"
+      "title": "全部 PDF 工具大全 (67+款免費線上工具) - TPSH PDF",
+      "description": "一站式免費瀏覽 TPSH PDF 的 67+ 款專業工具：PDF線上合併、分割、高壓縮率壓縮、PDF轉Word/Excel/圖片、頁面旋轉排序、去浮水印、解密加密等，無需安裝任何軟體。"
     },
     "about": {
-      "title": "關於我們",
-      "description": "瞭解 PDFCraft - 您免費、私密且強大的 PDF 工具箱。所有處理都在您的瀏覽器中進行。"
+      "title": "關於 TPSH PDF - 專注隱私與效率的新一代線上 PDF 工具箱",
+      "description": "了解 TPSH PDF 創立初衷：告別傳統雲端工具的檔案上傳等待與外洩隱患，利用瀏覽器本地計算（WebAssembly）讓檔案處理更快、更安全、更純粹。"
     },
     "faq": {
-      "title": "常見問題",
-      "description": "查找有關 PDFCraft 的常見問題解答。瞭解如何有效使用我們的 PDF 工具。"
+      "title": "常見問題解答 (FAQ) - TPSH PDF 說明中心",
+      "description": "解答關於 TPSH PDF 工具箱的檔案安全性、處理速度、大小限制、支援格式以及瀏覽器相容性等常見疑問。"
     },
     "privacy": {
-      "title": "隱私政策",
-      "description": "PDFCraft 隱私政策。您的檔案永遠不會離開您的裝置 - 所有處理都在本地瀏覽器中進行。"
+      "title": "隱私政策與安全承諾 - TPSH PDF",
+      "description": "TPSH PDF 隱私政策：您的檔案 100% 保留在您的本地裝置與瀏覽器記憶體中，絕不上傳到任何遠端伺服器或第三方雲端儲存，真正保障商業和個人機密資訊安全。"
     },
     "contact": {
-      "title": "聯絡我們",
-      "description": "聯繫 PDFCraft 團隊。我們很樂意聽取您的意見。"
+      "title": "聯絡我們與意見回饋 - TPSH PDF",
+      "description": "如有功能改進建議、Bug回報或商務合作，歡迎隨時聯絡 TPSH PDF 團隊。"
     },
     "keywords": {
       "pdfTools": "PDF 工具",
@@ -35,8 +35,8 @@
     }
   },
   "common": {
-    "brand": "PDFCraft",
-    "tagline": "專業PDF工具 - 免費且私密",
+    "brand": "TPSH PDF",
+    "tagline": "100% 本地極速處理 · 零上傳絕對隱私安全",
     "navigation": {
       "home": "首頁",
       "tools": "工具",
@@ -83,10 +83,10 @@
       "loading": "載入中..."
     },
     "footer": {
-      "footer": "© 2025 PDFCraft. 保留所有權利。",
-      "copyright": "© {year} PDFCraft. 保留所有權利。",
-      "privacyBadge": "100% 私密 - 檔案永不離開您的裝置",
-      "madeWith": "Made with <Heart /> and <Nextjs />"
+      "footer": "© 2026 TPSH PDF. 保留所有權利。",
+      "copyright": "© {year} TPSH PDF (pdf.tpsh.cc). 保留所有權利。",
+      "privacyBadge": "100% 本地安全計算 - 機密檔案永不離開您的裝置",
+      "madeWith": "Made with <Heart /> and WebAssembly"
     },
     "recentFiles": {
       "title": "最近檔案",
@@ -129,7 +129,7 @@
       "finish": "完成",
       "skip": "跳過",
       "stepOf": "/",
-      "welcomeTitle": "歡迎使用PDFCraft！",
+      "welcomeTitle": "歡迎使用TPSH PDF！",
       "welcomeMessage": "想要快速瞭解如何使用我們的PDF工具嗎？只需一分鐘。",
       "helpButton": "幫助導覽"
     },
@@ -504,7 +504,7 @@
       "bronzeWax": "古铜赤金",
       "enableDoubleKey": "启用證書双钥锁 (256位强加密)",
       "decryptPasswordHelp": "设置解密所持密碼 (PFX 解密密钥)",
-      "passwordPlaceholder": "默認密碼: pdfcraft",
+      "passwordPlaceholder": "默認密碼: tpshpdf",
       "sealCoordinates": "数字證書盖印坐标: X: {x}px, Y: {y}px",
       "clickToReposition": "在白纸处点击以重定位印章"
     },
@@ -926,7 +926,7 @@
       "errorTitle": "無法檢查更新",
       "retry": "重試",
       "latest": "已是最新版本！",
-      "latestDesc": "您目前使用的是最新版本的 PDFCraft ({version})。",
+      "latestDesc": "您目前使用的是最新版本的 TPSH PDF ({version})。",
       "available": "發現新版本",
       "currentVersion": "目前版本",
       "released": "發佈於",
@@ -984,16 +984,16 @@
     "sections": {
       "general": {
         "whatIs": {
-          "question": "PDFCraft 是什麼？",
-          "answer": "PDFCraft 是一個免費、注重隱私的 PDF 工具包，完全在您的瀏覽器中執行。它提供 67+ 個專業工具，用於編輯、轉換、合併、分割和加密 PDF 檔案，而無需將其上傳到任何伺服器。"
+          "question": "TPSH PDF 是什麼？",
+          "answer": "TPSH PDF 是一個免費、注重隱私的 PDF 工具包，完全在您的瀏覽器中執行。它提供 67+ 個專業工具，用於編輯、轉換、合併、分割和加密 PDF 檔案，而無需將其上傳到任何伺服器。"
         },
         "isFree": {
-          "question": "PDFCraft 真的免費嗎？",
-          "answer": "是的，PDFCraft 完全免費使用。沒有隱藏費用，沒有高階會員，也無需註冊。所有功能對每個人開放。"
+          "question": "TPSH PDF 真的免費嗎？",
+          "answer": "是的，TPSH PDF 完全免費使用。沒有隱藏費用，沒有高階會員，也無需註冊。所有功能對每個人開放。"
         },
         "account": {
           "question": "我需要建立帳戶嗎？",
-          "answer": "不需要，您無需建立帳戶或註冊即可使用 PDFCraft。只需訪問網站即可立即開始使用任何工具。"
+          "answer": "不需要，您無需建立帳戶或註冊即可使用 TPSH PDF。只需訪問網站即可立即開始使用任何工具。"
         }
       },
       "privacy": {
@@ -1002,8 +1002,8 @@
           "answer": "不會，您的檔案從未上傳到任何伺服器。所有 PDF 處理都使用 JavaScript 和 WebAssembly 在瀏覽器本地進行。您的檔案從未離開您的裝置。"
         },
         "safe": {
-          "question": "使用 PDFCraft 處理敏感文件安全嗎？",
-          "answer": "是的，PDFCraft 的設計以隱私為重。由於所有處理都在瀏覽器本地進行，您的敏感文件保留在您的裝置上，從未透過網際網路傳輸。"
+          "question": "使用 TPSH PDF 處理敏感文件安全嗎？",
+          "answer": "是的，TPSH PDF 的設計以隱私為重。由於所有處理都在瀏覽器本地進行，您的敏感文件保留在您的裝置上，從未透過網際網路傳輸。"
         },
         "storage": {
           "question": "處理後我的檔案會怎樣？",
@@ -1013,7 +1013,7 @@
       "features": {
         "operations": {
           "question": "我可以執行哪些 PDF 操作？",
-          "answer": "PDFCraft 提供 67+ 個工具，包括：合併、分割、壓縮、轉換（轉為/來自影像、文字、JSON）、編輯、註釋、簽名、新增浮水印、加密/解密、OCR 等等。"
+          "answer": "TPSH PDF 提供 67+ 個工具，包括：合併、分割、壓縮、轉換（轉為/來自影像、文字、JSON）、編輯、註釋、簽名、新增浮水印、加密/解密、OCR 等等。"
         },
         "merge": {
           "question": "我可以合併多個 PDF 檔案嗎？",
@@ -1021,17 +1021,17 @@
         },
         "images": {
           "question": "我可以將影像轉換為 PDF 嗎？",
-          "answer": "是的，PDFCraft 支援將各種影像格式（JPG、PNG、WebP、BMP、TIFF、SVG、HEIC）轉換為 PDF。您可以一次轉換單個或多個影像。"
+          "answer": "是的，TPSH PDF 支援將各種影像格式（JPG、PNG、WebP、BMP、TIFF、SVG、HEIC）轉換為 PDF。您可以一次轉換單個或多個影像。"
         },
         "edit": {
           "question": "我可以編輯 PDF 中的文字嗎？",
-          "answer": "PDFCraft 提供註釋和編輯工具，包括高亮、新增文字、形狀、影像和簽名。如需全文編輯，PDF 編輯器工具提供全面的註釋功能。"
+          "answer": "TPSH PDF 提供註釋和編輯工具，包括高亮、新增文字、形狀、影像和簽名。如需全文編輯，PDF 編輯器工具提供全面的註釋功能。"
         }
       },
       "technical": {
         "browsers": {
           "question": "支援哪些瀏覽器？",
-          "answer": "PDFCraft 適用於所有現代瀏覽器，包括 Chrome、Firefox、Safari 和 Edge。我們建議使用最新版本的瀏覽器以獲得最佳體驗。"
+          "answer": "TPSH PDF 適用於所有現代瀏覽器，包括 Chrome、Firefox、Safari 和 Edge。我們建議使用最新版本的瀏覽器以獲得最佳體驗。"
         },
         "sizeLimit": {
           "question": "有檔案大小限制嗎？",
@@ -1042,14 +1042,14 @@
           "answer": "由於所有處理都在瀏覽器中進行，效能取決於您裝置的能力。大檔案需要更多的記憶體和處理能力。為了獲得最佳結果，請關閉其他瀏覽器分頁和應用程式。"
         },
         "offline": {
-          "question": "PDFCraft 可以離線工作嗎？",
-          "answer": "目前，PDFCraft 需要網際網路連線才能載入應用程式。但是，一旦載入，PDF 處理本身在本地進行，不需要連線。"
+          "question": "TPSH PDF 可以離線工作嗎？",
+          "answer": "目前，TPSH PDF 需要網際網路連線才能載入應用程式。但是，一旦載入，PDF 處理本身在本地進行，不需要連線。"
         }
       },
       "languages": {
         "supported": {
           "question": "支援哪些語言？",
-          "answer": "PDFCraft 提供 9 種語言版本：英語、日語、韓語、西班牙語、法語、德語、中文、葡萄牙語和阿拉伯語（支援從右到左）。"
+          "answer": "TPSH PDF 提供 9 種語言版本：英語、日語、韓語、西班牙語、法語、德語、中文、葡萄牙語和阿拉伯語（支援從右到左）。"
         },
         "change": {
           "question": "如何更改語言？",
@@ -1080,7 +1080,7 @@
       },
       "fast": {
         "title": "快速高效",
-        "description": "由現代 Web 技術驅動，PDFCraft 提供閃電般的 PDF 處理速度，無需上傳或下載。"
+        "description": "由現代 Web 技術驅動，TPSH PDF 提供閃電般的 PDF 處理速度，無需上傳或下載。"
       },
       "accessible": {
         "title": "隨處可用",
@@ -1088,7 +1088,7 @@
       },
       "free": {
         "title": "永久免費",
-        "description": "PDFCraft 完全免費使用，沒有隱藏費用，無需註冊，也不限制使用次數。"
+        "description": "TPSH PDF 完全免費使用，沒有隱藏費用，無需註冊，也不限制使用次數。"
       },
       "openSource": {
         "title": "開源透明",
@@ -1126,7 +1126,7 @@
       "email": {
         "title": "電子郵件",
         "description": "傳送電子郵件給我們，我們將在 24-48 小時內回覆。",
-        "action": "contact@pdfcraft.app"
+        "action": "support@tpsh.cc"
       },
       "github": {
         "title": "GitHub",
@@ -1136,7 +1136,7 @@
       "twitter": {
         "title": "推特",
         "description": "關注我們要獲取更新和公告。",
-        "action": "@pdfcraft"
+        "action": "@tpsh_pdf"
       }
     },
     "form": {
@@ -1268,7 +1268,7 @@
   "workflow": {
     "title": "PDF 工作流程編輯器",
     "subtitle": "透過連接工具建立自訂 PDF 處理管道",
-    "metaTitle": "PDF 工作流程編輯器 - PDFCraft",
+    "metaTitle": "PDF 工作流程編輯器 - TPSH PDF",
     "metaDescription": "透過視覺化連接工具建立自訂 PDF 處理管道。建構、儲存和重複使用您的工作流程。",
     "toolbox": "工具箱",
     "dragToAdd": "拖曳或雙擊工具以新增到工作流程",

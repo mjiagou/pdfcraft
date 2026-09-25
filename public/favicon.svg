@@ -1,5 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="6" fill="#3b82f6"/>
-  <path d="M8 8h10a4 4 0 010 8H8V8z" fill="white"/>
-  <path d="M8 16h6v8H8v-8z" fill="white"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="tpsh-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="50%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="tpsh-fold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93C5FD" />
+      <stop offset="100%" stop-color="#60A5FA" />
+    </linearGradient>
+    <linearGradient id="tpsh-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FACC15" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  
+  <!-- Outer Rounded Badge -->
+  <rect width="64" height="64" rx="16" fill="url(#tpsh-bg)" />
+  
+  <!-- Document Silhouette -->
+  <g filter="url(#shadow)">
+    <!-- Base Page -->
+    <path d="M18 12 H38 L48 22 V50 C48 52.2 46.2 54 44 54 H18 C15.8 54 14 52.2 14 50 V16 C14 13.8 15.8 12 18 12 Z" fill="#FFFFFF" fill-opacity="0.95"/>
+    
+    <!-- Folded Corner -->
+    <path d="M38 12 V20 C38 21.1 38.9 22 40 22 H48 Z" fill="url(#tpsh-fold)"/>
+    
+    <!-- Stylized 'P' & Shield/Lightning Slash for TPSH PDF -->
+    <rect x="20" y="27" width="5" height="19" rx="2.5" fill="#2563EB" />
+    <path d="M23 27 H33 C36.5 27 38.5 29 38.5 32 C38.5 35 36.5 37 33 37 H23 V27 Z" fill="#2563EB" />
+    <circle cx="30" cy="32" r="2" fill="#FFFFFF"/>
+    
+    <!-- Fast/Security Pulse Accent -->
+    <path d="M34 38 L43 38 L38 48 L46 48" stroke="url(#tpsh-accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
 </svg>

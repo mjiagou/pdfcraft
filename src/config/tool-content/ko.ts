@@ -12,15 +12,14 @@ import { toolContentEn } from './en';
  */
 export const toolContentKo: Record<string, ToolContent> = {
   "pdf-multi-tool": {
-    "title": "PDF 멀티 도구",
-    "metaDescription": "올인원 PDF 편집기: 병합, 분할, 정리, 삭제, 회전, 페이지 추출을 하나의 강력한 도구로.",
+    "title": "PDF 올인원 멀티툴 - 병합, 분할, 회전, 추출 통합 편집기",
+    "metaDescription": "브라우저 완결형 무료 종합 PDF 페이지 에디터: 파일 병합, 정밀 분할, 순서 변경, 회전 및 추출을 즉시 처리합니다. 서버 업로드 없는 완벽한 데이터 보안.",
     "keywords": [
-      "pdf 멀티 도구",
-      "pdf 편집기",
-      "pdf 병합",
-      "pdf 분할",
-      "pdf 정리",
-      "올인원 pdf"
+      "pdf 멀티툴",
+      "pdf 올인원 편집",
+      "pdf 병합 및 분할",
+      "pdf 페이지 정리",
+      "무료 로컬 pdf 도구"
     ],
     "description": "\n      <p>PDF 멀티 도구는 모든 PDF 페이지 관리 작업을 위한 포괄적인 솔루션입니다. 이 강력한 올인원 도구는 여러 PDF 작업을 단일 직관적인 인터페이스로 통합하여 시간과 노력을 절약합니다.</p>\n      <p>여러 문서 병합, 큰 PDF 분할, 페이지 재정렬, 불필요한 콘텐츠 삭제, 페이지 회전, 특정 섹션 추출 등 다른 애플리케이션 간 전환 없이 모든 작업을 처리할 수 있습니다.</p>\n      <p>모든 처리는 브라우저에서 직접 이루어지며, 문서의 개인 정보와 보안이 보장됩니다. 파일이 서버에 업로드되지 않습니다.</p>\n    ",
     "howToUse": [
@@ -78,14 +77,14 @@ export const toolContentKo: Record<string, ToolContent> = {
     ]
   },
   "merge-pdf": {
-    "title": "PDF 병합",
-    "metaDescription": "여러 PDF 파일을 하나의 문서로 결합. 드래그 앤 드롭 재정렬이 가능한 무료 온라인 PDF 병합 도구.",
+    "title": "PDF 병합 - 여러 PDF 파일을 무료로 하나로 합치기 (무손실 로컬 처리)",
+    "metaDescription": "여러 개의 PDF 문서를 하나의 완성된 파일로 간편하게 합치세요. 드래그 앤 드롭 정렬 지원, 원본 화질 및 북마크 완벽 보존. 100% 브라우저 메모리 내 안전한 병합.",
     "keywords": [
       "pdf 병합",
-      "pdf 결합",
       "pdf 합치기",
-      "pdf 머저",
-      "pdf 연결"
+      "여러 pdf 파일 합치기",
+      "pdf 묶기",
+      "무료 pdf 병합 사이트"
     ],
     "description": "<p>PDF 병합을 사용하면 여러 PDF 문서를 빠르고 쉽게 하나의 파일로 결합할 수 있습니다.</p>",
     "howToUse": [
@@ -138,14 +137,14 @@ export const toolContentKo: Record<string, ToolContent> = {
     ]
   },
   "split-pdf": {
-    "title": "PDF 분할",
-    "metaDescription": "PDF 파일을 여러 문서로 분할. 특정 페이지 추출 또는 페이지 범위로 나누기.",
+    "title": "PDF 분할 - 원하는 페이지 무료 추출 및 파일 나누기 (안전한 무업로드)",
+    "metaDescription": "페이지 번호나 범위를 지정하여 대용량 PDF를 분할하거나 필요한 페이지만 즉시 추출하세요. 서버 전송 없는 초고속 로컬 분할.",
     "keywords": [
       "pdf 분할",
       "pdf 나누기",
-      "pdf 분리",
-      "페이지 추출",
-      "pdf 스플리터"
+      "pdf 페이지 추출",
+      "pdf 쪼개기",
+      "무료 pdf 분할기"
     ],
     "description": "<p>PDF 분할을 사용하면 하나의 PDF 문서를 여러 개의 작은 파일로 나눌 수 있습니다.</p>",
     "howToUse": [
@@ -203,14 +202,14 @@ export const toolContentKo: Record<string, ToolContent> = {
     ]
   },
   "compress-pdf": {
-    "title": "PDF 압축",
-    "metaDescription": "품질을 유지하면서 PDF 파일 크기 줄이기.",
+    "title": "PDF 압축 - 화질 유지하며 파일 용량 대폭 줄이기 (100% 비공개)",
+    "metaDescription": "이메일 첨부나 제출용 PDF 용량을 텍스트 선명도를 유지하며 최대 80% 압축. 파일 유출 걱정 없는 100% 로컬 프로세싱.",
     "keywords": [
       "pdf 압축",
-      "pdf 크기 줄이기",
-      "pdf 압축기",
-      "pdf 축소",
-      "pdf 최적화"
+      "pdf 용량 줄이기",
+      "pdf 파일 크기 축소",
+      "무료 pdf 압축기",
+      "안전한 pdf 압축"
     ],
     "description": "<p>PDF 압축은 허용 가능한 품질을 유지하면서 PDF 문서의 파일 크기를 줄입니다.</p>",
     "howToUse": [
@@ -4117,7 +4116,7 @@ export const toolContentKo: Record<string, ToolContent> = {
       },
       {
         "question": "Can I customize the stamp design?",
-        "answer": "Yes. We provide multiple designs like the PDFCraft watermark or a Royal crest, and you can adjust the wax melting radius and normal-map indentation depth in the panel."
+        "answer": "Yes. We provide multiple designs like the TPSH PDF watermark or a Royal crest, and you can adjust the wax melting radius and normal-map indentation depth in the panel."
       }
     ]
   },

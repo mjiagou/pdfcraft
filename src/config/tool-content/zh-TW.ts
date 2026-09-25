@@ -8,32 +8,59 @@ import { toolContentEn } from './en';
 
 import type { ToolContent } from '@/types/tool';
 
-export const toolContentZhTW: Record<string, ToolContent> = {
   // ==================== 熱門工具 ====================
   'pdf-multi-tool': {
-    title: 'PDF多功能工具',
-    metaDescription: '一站式PDF編輯器：合併、拆分、整理、刪除、旋轉和提取頁面，功能強大。',
-    keywords: ['pdf多功能工具', 'pdf編輯器', '合併pdf', '拆分pdf', '整理pdf', '一站式pdf'],
+    title: 'PDF多功能綜合工具箱 (合併/分割/旋轉/擷取一站式)',
+    metaDescription: '全能線上PDF頁面編輯器：支援PDF多檔案合併、精準分割、頁面重新排序、旋轉校正與頁面擷取。純瀏覽器本地極速運算，無需上傳，完全私密安全。',
+    keywords: ['pdf多功能工具', 'pdf編輯器', '合併pdf', '分割pdf', '整理pdf', '一站式pdf工具箱', '免上傳pdf編輯', '本地安全pdf處理'],
     description: `
-      <p>PDF 多功能工具是您處理所有 PDF 頁面管理任務的綜合解決方案。這款強大的單一介面將多種 PDF 操作整合在一起，幫您節省時間與精力。</p>
-      <p>無論您要合併多個檔案、將大型 PDF 拆分為小檔案、重新整理頁面、刪除不需要的頁面、旋轉頁面或提取特定段落，這個工具都能輕鬆完成，無需在多個應用間切換。</p>
-      <p>所有處理皆在您的瀏覽器中本地執行，確保檔案隱私與安全，不會將任何檔案上傳至伺服器。</p>
+      <p>TPSH PDF 多功能綜合工具箱是您高效管理與處理 PDF 檔案的全能助手。這款一站式工具將日常高頻的多種 PDF 操作無縫整合，避免在多個獨立軟體或網頁間頻繁切換。</p>
+      <p>無論您需要合併多份檔案、將大型 PDF 分解成獨立章節、隨心重排頁面順序、旋轉方向錯誤的頁面，還是快速擷取關鍵頁面，都能在秒級內輕鬆搞定。</p>
+      <p><strong>安全承諾：</strong>所有計算完全在您的本地瀏覽器端（基於 WebAssembly）完成，檔案資料絕不上傳至任何伺服器，零外洩風險，保障個人與企業資料安全。</p>
     `,
     howToUse: [
-      { step: 1, title: '上傳PDF檔案', description: '將PDF檔案拖放到上傳區域，或點擊瀏覽並從裝置中選擇檔案。' },
-      { step: 2, title: '選擇操作', description: '從可用操作中選擇：合併、拆分、整理、刪除頁面、旋轉、新增空白頁或提取頁面。' },
-      { step: 3, title: '設定選項', description: '根據所選操作調整設定，如頁面範圍、旋轉角度或合併順序。' },
-      { step: 4, title: '處理並下載', description: '點擊處理按鈕，操作完成後下載修改後的PDF。' },
+      { step: 1, title: '新增PDF檔案', description: '直接將 PDF 檔案拖曳到頁面上傳區，或點擊“選擇檔案”從本地載入。' },
+      { step: 2, title: '選擇所需操作', description: '在功能列中選擇您要進行的操作：合併、分割、重排頁面、刪除無用頁、旋轉角度或擷取頁面。' },
+      { step: 3, title: '微調選項', description: '按需設定具體參數，如旋轉角度、合併次序或擷取頁碼範圍。' },
+      { step: 4, title: '極速生成並下載', description: '點擊開始處理，本地秒級運算完成後即可一鍵儲存新產生的 PDF 檔案。' },
     ],
     useCases: [
-      { title: '檔案準備', description: '透過刪除不必要的頁面、重新排序內容和合併多個檔案來準備提交檔案。', icon: 'file-check' },
-      { title: '報告匯編', description: '合併多個報告部分，新增封面頁，將章節整理成一個專業文檔。', icon: 'book-open' },
-      { title: '檔案管理', description: '將大型檔案拆分成可管理的部分，提取相關頁面，重新整理歷史文件。', icon: 'archive' },
+      { title: '商業文檔終審排版', description: '在正式提交商業標書或報告前，快速移除冗餘空白頁並統一旋轉頁面方向。', icon: 'file-check' },
+      { title: '多部門報告整合', description: '把財務、營運與技術部門分別提交的獨立章節無縫合併為統一的簡報文檔。', icon: 'book-open' },
+      { title: '電子檔案按需歸檔', description: '將數百頁的掃描檔案按年度或專題快速分割擷取，便於分類儲存與檢索。', icon: 'archive' },
     ],
     faq: [
-      { question: '一次可以處理多少個PDF？', answer: '您可以同時上傳和處理最多10個PDF檔案，合併最大大小為500MB。' },
-      { question: '書籤會被保留嗎？', answer: '是的，合併PDF時，工具會保留現有書籤，並可選擇將它們合併成統一的書籤結構。' },
-      { question: '有頁數限制嗎？', answer: '沒有嚴格的頁數限制。該工具可以處理數百頁的檔案，但非常大的檔案可能需要更長的處理時間。' },
+      { question: '處理大型 PDF 會有檔案大小限制嗎？', answer: 'TPSH PDF 在瀏覽器本地完成運算，沒有強制的伺服器大小限制，一般數十兆至數百兆的檔案均可流暢處理。' },
+      { question: '合併或分割後是否會丟失書籤？', answer: '工具會盡可能完整保留原檔案的目錄與書籤結構，確保閱讀體驗連貫。' },
+      { question: '為什麼比其他線上工具快很多？', answer: '因為無需等待緩慢的檔案網路載入與雲端下載，所有運算完全調用您裝置的本地 CPU 算力，秒級生效。' },
+    ],
+  },
+
+  'merge-pdf': {
+    title: 'PDF合併 - 免費線上將多個PDF合併為一個檔案 (無失真極速)',
+    metaDescription: '專業免費的線上PDF合併器：支援拖曳自由排序、保留原始清晰度與書籤目錄。100%瀏覽器本地極速拼接，檔案零上傳，保護您的商業隱私。',
+    keywords: ['合併pdf', 'pdf線上合併', '拼接pdf', 'pdf多合一', '組合pdf檔案', '免費pdf合併軟體', '免上傳合併pdf'],
+    description: `
+      <p>PDF 合併工具支援將多份分散的 PDF 檔案快速無縫地組合成一個連貫的單一檔案。無論整合合約附件、合併掃描單據還是匯編完整簡報材料，都能一鍵完成。</p>
+      <p>上傳檔案後，您可以直觀地拖曳縮圖自由調整前後順序。工具採用無損合併引擎，最大程度保留原檔案的高畫質向量文字、圖像品質及目錄索引。</p>
+      <p><strong>隱私零外洩：</strong>整個合併流程在您的電腦/手機瀏覽器記憶體中即時執行，絕不向雲端發送任何檔案位元組，財務與法律文件可放心使用。</p>
+    `,
+    howToUse: [
+      { step: 1, title: '載入待合併PDF', description: '批次將多個 PDF 檔案拖曳到網頁區域，或點擊按鈕從本地裝置選取。' },
+      { step: 2, title: '拖曳調整排版順序', description: '在預覽視窗直接拖曳卡片，自由調整各個檔案的先後拼接順序。' },
+      { step: 3, title: '一鍵合併並匯出', description: '點擊“合併PDF”按鈕，系統本地瞬間組合完畢，點擊下載即可。' },
+    ],
+    useCases: [
+      { title: '整合月度/季度財報', description: '將分散的月度帳目報表與憑證合併為年度審計文檔，便於歸檔與分享。', icon: 'file-text' },
+      { title: '設計與履歷作品集組合', description: '將個人履歷、榮譽證書、設計成果整合為一份整潔專業的 PDF 作品集。', icon: 'briefcase' },
+      { title: '發票與報銷憑據歸集', description: '將多次出差的行程單、電子發票和報銷憑單拼成單份文檔，方便財務審核。', icon: 'receipt' },
+    ],
+    faq: [
+      { question: '一次性可以合併多少份 PDF？', answer: '支援一次性批次合併多達數十甚至上百份 PDF 檔案。' },
+      { question: '合併後會不會降低清晰度？', answer: '不會。合併過程不改變頁面內部向量和圖片解析度，保持原始檔案 100% 原始清晰度。' },
+      { question: '帶有密碼保護的檔案可以合併嗎？', answer: '受密碼保護加密的檔案請先使用本站的“解密PDF”工具解鎖後，再進行合併。' },
+    ],
+  },�理時間。' },
     ],
   },
 
@@ -118,9 +145,17 @@ export const toolContentZhTW: Record<string, ToolContent> = {
   },
 
   'split-pdf': {
-    title: '拆分PDF',
-    metaDescription: '將PDF檔案拆分成多個檔案。提取特定頁面或按頁面範圍分割。',
-    keywords: ['拆分pdf', '分割pdf', '分離pdf', '提取頁面', 'pdf拆分器'],
+    title: 'PDF分割 - 線上免費分割與擷取PDF指定頁面 (無失真高保真)',
+    metaDescription: '專業免費的線上PDF分割與擷取工具：支援按頁碼區間、固定步長分割或單頁單獨匯出。100%瀏覽器本地極速運算，無需上傳，零隱私外洩風險。',
+    keywords: [
+      "分割pdf",
+      "pdf分割",
+      "擷取pdf頁面",
+      "pdf分離器",
+      "線上分割pdf",
+      "截取pdf部分頁面",
+      "免費分割pdf"
+    ],
     description: `
       <p>拆分PDF使您能夠將單個PDF檔案分成多個較小的檔案。這非常適合提取特定章節、分離合併的檔案或從多頁PDF創建單獨的檔案。</p>
       <p>您可以按特定頁面範圍拆分、提取單個頁面或按固定間隔分割檔案。該工具提供頁面的可視預覽，使您能夠輕鬆選擇所需的內容。</p>
@@ -145,9 +180,17 @@ export const toolContentZhTW: Record<string, ToolContent> = {
   },
 
   'compress-pdf': {
-    title: '壓縮PDF',
-    metaDescription: '減小PDF檔案大小同時保持品質。免費線上PDF壓縮器，生成更小的檔案。',
-    keywords: ['壓縮pdf', '減小pdf大小', 'pdf壓縮器', '縮小pdf', '優化pdf'],
+    title: 'PDF壓縮 - 免費線上極限壓縮PDF大小 (清晰度自選/安全無上傳)',
+    metaDescription: '高效專業的線上PDF壓縮器：智慧最佳化圖像解析度與字型流，在保持高清可讀的前提下將檔案大小壓縮高達80%。純本地運行，免上傳伺服器。',
+    keywords: [
+      "壓縮pdf",
+      "pdf線上壓縮",
+      "減小pdf大小",
+      "免費縮小pdf檔案",
+      "pdf壓縮神器",
+      "pdf檔案過大壓縮",
+      "免上傳pdf壓縮"
+    ],
     description: `
       <p>壓縮PDF在保持可接受品質的同時減小PDF檔案的大小。這對於電子郵件附件、網絡上傳或節省存儲空間至關重要。</p>
       <p>該工具提供多種壓縮級別，以平衡檔案大小減少和品質保持。您可以選擇激進壓縮以獲得最大的大小減少，或選擇輕度壓縮以保持更高的品質。</p>
@@ -2675,14 +2718,16 @@ export const toolContentZhTW: Record<string, ToolContent> = {
     ],
   },
   'form-logic-designer': {
-    "title": "表單邏輯設計",
-    "metaDescription": "使用毛玻璃節點圖連線設計交互邏輯，向PDF表單注入可編程聯動 JavaScript 腳本。",
+    "title": "PDF壓縮 - 免費線上極限壓縮PDF大小 (清晰度自選/安全無上傳)",
+    "metaDescription": "高效專業的線上PDF壓縮器：智慧最佳化圖像解析度與字型流，在保持高清可讀的前提下將檔案大小壓縮高達80%。純本地運行，免上傳伺服器。",
     "keywords": [
-        "PDF表單邏輯",
-        "AcroJS注入",
-        "節點連線",
-        "交互式PDF",
-        "表單連動"
+      "壓縮pdf",
+      "pdf線上壓縮",
+      "減小pdf大小",
+      "免費縮小pdf檔案",
+      "pdf壓縮神器",
+      "pdf檔案過大壓縮",
+      "免上傳pdf壓縮"
     ],
     "description": "\n        <p>可編程PDF表單邏輯設計艙是填補PDF高級交互空白的革新性工具。傳統的PDF表單都是死板的靜態欄位，而本工具能讓您的PDF表單像現代Web應用一樣具備動態交互邏輯。</p>\n        <p>通過基於 React Flow 構建的“毛玻璃發光節點”視覺化畫布，您的PDF表單欄位會變成可交互的邏輯節點。您可以通過拖拽連線，為它們定義各種觸發條件與行為動作（如：當複選框被勾選 ➜ 啟用原本禁用的輸入框 ➜ 自動計算總價並填充）。</p>\n        <p>設計完畢後，底層的 AcroJS 腳本注入引擎會將邏輯完全編譯為標準的 Acrobat JavaScript 並埋入 PDF 的交互表單字典 '/AA' 中，使該文檔在任意標準 PDF 閱讀器中均能生效。</p>\n      ",
     "howToUse": [
@@ -3119,7 +3164,7 @@ export const toolContentZhTW: Record<string, ToolContent> = {
     ],
     faq: [
       { question: '塗黑或馬賽克處理後，底層文字還能被複制或還原嗎？', answer: '絕對不能。我們對脫敏頁面進行了物理像素級柵格化重構，選區下方的文字和矢量流被徹底覆蓋重繪，生成的PDF中已不存在原始文本字元，任何工具都無法複製或反向提取。' },
-      { question: '我的PDF文件會被上傳到伺服器嗎？', answer: '完全不會！PDFCraft的脫敏處理全部依賴瀏覽器的Canvas與WebAssembly引擎在本地離線運行，您的私密文檔永遠不會離開您的本機設備。' },
+      { question: '我的PDF文件會被上傳到伺服器嗎？', answer: '完全不會！TPSH PDF的脫敏處理全部依賴瀏覽器的Canvas與WebAssembly引擎在本地離線運行，您的私密文檔永遠不會離開您的本機設備。' },
       { question: '什麼是「深度元數據擦除」？', answer: 'PDF文檔通常隱藏有作者姓名、所用操作系統、編輯歷史、GPS位置和XMP元數據。本工具會徹底清空Info字典和元數據流，抹除數字隱私指紋。' },
       { question: '塗黑和馬賽克有什麼區別？', answer: '實心塗黑會使用純色（如純黑或白色）完全覆蓋內容，適合最嚴苛的審查場景；馬賽克和高斯模糊則在視覺上將內容打碼不可讀，適合需要保留排版輪廓的演示場景。' },
     ],

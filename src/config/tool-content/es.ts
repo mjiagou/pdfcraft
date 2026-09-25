@@ -14,14 +14,14 @@ import type { ToolContent } from '@/types/tool';
  */
 export const toolContentEs: Record<string, ToolContent> = {
   "pdf-multi-tool": {
-    "title": "Herramienta Múltiple PDF",
-    "metaDescription": "Editor PDF todo en uno: combina, divide, organiza, elimina, rota y extrae páginas en una sola herramienta.",
+    "title": "Herramienta PDF multifunción - Unir, dividir, rotar y organizar páginas",
+    "metaDescription": "Editor integral de páginas PDF en el navegador: une, divide, reordena, rota y extrae páginas al instante. Procesamiento 100% local con WebAssembly, sin subir archivos.",
     "keywords": [
-      "herramienta múltiple pdf",
-      "editor pdf",
-      "combinar pdf",
-      "dividir pdf",
-      "organizar pdf"
+      "herramienta multifuncion pdf",
+      "organizador de paginas pdf",
+      "unir y dividir pdf",
+      "editor pdf local",
+      "herramientas pdf privadas"
     ],
     "description": "<p>La Herramienta Múltiple PDF es tu solución integral para todas las tareas de gestión de páginas PDF. Combina múltiples operaciones en una única interfaz intuitiva.</p><p>Todo el procesamiento ocurre en tu navegador, asegurando privacidad completa.</p>",
     "howToUse": [
@@ -74,13 +74,14 @@ export const toolContentEs: Record<string, ToolContent> = {
     ]
   },
   "merge-pdf": {
-    "title": "Combinar PDF",
-    "metaDescription": "Combina múltiples archivos PDF en un solo documento. Combinador de PDF gratuito con reordenamiento.",
+    "title": "Unir PDF - Combinar varios archivos PDF online gratis y sin límites",
+    "metaDescription": "Combina múltiples archivos PDF en un solo documento de forma rápida y segura. Ordena tus páginas arrastrando y soltando, conservando la calidad original. Máxima privacidad.",
     "keywords": [
-      "combinar pdf",
       "unir pdf",
-      "fusionar pdf",
-      "combinador pdf"
+      "juntar pdf",
+      "combinar pdf",
+      "unir varios pdf en uno",
+      "unir pdf online gratis"
     ],
     "description": "<p>Combinar PDF te permite unir múltiples documentos PDF en un solo archivo. Sube tus archivos, ordénalos y combínalos en un documento cohesivo.</p><p>Todo ocurre localmente en tu navegador para máxima privacidad.</p>",
     "howToUse": [
@@ -263,13 +264,14 @@ export const toolContentEs: Record<string, ToolContent> = {
     ]
   },
   "split-pdf": {
-    "title": "Dividir PDF",
-    "metaDescription": "Divide archivos PDF en múltiples documentos. Extrae páginas específicas o divide por rangos.",
+    "title": "Dividir PDF - Separar y extraer páginas de PDF online gratis",
+    "metaDescription": "Divide documentos PDF grandes en varios archivos o extrae páginas específicas por intervalos. Sin necesidad de registro ni subir tus datos a servidores.",
     "keywords": [
       "dividir pdf",
       "separar pdf",
-      "extraer páginas",
-      "divisor pdf"
+      "extraer paginas pdf",
+      "cortar pdf online",
+      "separador pdf gratis"
     ],
     "description": "<p>Dividir PDF te permite separar un documento PDF en múltiples archivos. Perfecto para extraer capítulos o crear archivos individuales.</p><p>Procesamiento local para máxima seguridad.</p>",
     "howToUse": [
@@ -322,13 +324,14 @@ export const toolContentEs: Record<string, ToolContent> = {
     ]
   },
   "compress-pdf": {
-    "title": "Comprimir PDF",
-    "metaDescription": "Reduce el tamaño de archivos PDF manteniendo la calidad. Compresor de PDF gratuito.",
+    "title": "Comprimir PDF - Reducir el tamaño de tus archivos PDF online (100% privado)",
+    "metaDescription": "Reduce el peso de tus archivos PDF manteniendo la máxima nitidez. Ideal para enviar por correo o subir a plataformas con límite de tamaño. Proceso local en tu navegador.",
     "keywords": [
       "comprimir pdf",
-      "reducir tamaño pdf",
-      "compresor pdf",
-      "optimizar pdf"
+      "reducir tamano pdf",
+      "bajar peso pdf",
+      "optimizar pdf",
+      "compresor pdf gratis"
     ],
     "description": "<p>Comprimir PDF reduce el tamaño de tus documentos manteniendo calidad aceptable. Ideal para correos electrónicos y almacenamiento.</p><p>Compresión local en tu navegador.</p>",
     "howToUse": [
@@ -5437,7 +5440,7 @@ export const toolContentEs: Record<string, ToolContent> = {
       },
       {
         "question": "Can I customize the stamp design?",
-        "answer": "Yes. We provide multiple designs like the PDFCraft watermark or a Royal crest, and you can adjust the wax melting radius and normal-map indentation depth in the panel."
+        "answer": "Yes. We provide multiple designs like the TPSH PDF watermark or a Royal crest, and you can adjust the wax melting radius and normal-map indentation depth in the panel."
       }
     ]
   },

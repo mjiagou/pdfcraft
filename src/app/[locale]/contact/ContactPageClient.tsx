@@ -33,21 +33,21 @@ export default function ContactPageClient({ locale }: ContactPageClientProps) {
       title: t('methods.email.title'),
       description: t('methods.email.description'),
       action: t('methods.email.action'),
-      href: 'mailto:contact@pdfcraft.gitu.net',
+      href: 'mailto:support@tpsh.cc',
     },
     {
       icon: Github,
       title: t('methods.github.title'),
       description: t('methods.github.description'),
       action: t('methods.github.action'),
-      href: 'https://github.com/PDFCraftTool/pdfcraft',
+      href: '#',
     },
     {
       icon: Twitter,
       title: t('methods.twitter.title'),
       description: t('methods.twitter.description'),
       action: t('methods.twitter.action'),
-      href: 'https://x.com/PDFCraftTool',
+      href: '#',
     },
   ];
 
@@ -237,7 +237,7 @@ export default function ContactPageClient({ locale }: ContactPageClientProps) {
 
                     {formStatus === 'error' && (
                       <div className="flex items-center gap-2 p-4 bg-red-50 border border-red-200 rounded-lg text-red-700">
-                        <AlertCircle className="h-5 w-5 flex-shrink-0" />
+                        <AlertCircle className="h-5 w-5 shrink-0" />
                         <p className="text-sm">
                           {t('form.error')}
                         </p>

@@ -12,15 +12,14 @@ import { toolContentEn } from './en';
  */
 export const toolContentDe: Record<string, ToolContent> = {
   "pdf-multi-tool": {
-    "title": "PDF Multi-Tool",
-    "metaDescription": "All-in-One PDF-Editor: PDF zusammenfügen, teilen, organisieren, Seiten löschen, drehen und extrahieren in einem Tool.",
+    "title": "PDF Multi-Tool - All-in-One Seitenmanager, Zusammenfügen & Bearbeiten",
+    "metaDescription": "Kostenloses All-in-One PDF-Toolkit im Browser: Zusammenfügen, trennen, drehen, neu anordnen und Seiten extrahieren. 100% lokal per WebAssembly, ohne Datei-Upload.",
     "keywords": [
       "pdf multi tool",
-      "pdf editor deutsch",
-      "pdf zusammenfügen",
-      "pdf teilen",
-      "pdf organisieren",
-      "alles in einem pdf"
+      "pdf seiten verwalten",
+      "pdf zusammenfügen und trennen",
+      "offline pdf editor",
+      "sichere pdf werkzeuge"
     ],
     "description": "\n      <p>Das PDF Multi-Tool ist Ihre Komplettlösung für alle Aufgaben der PDF-Seitenverwaltung. Dieses leistungsstarke All-in-One-Tool kombiniert mehrere PDF-Operationen in einer intuitiven Benutzeroberfläche und spart Ihnen Zeit und Mühe.</p>\n      <p>Ob Sie mehrere Dokumente zusammenfügen, ein großes PDF in kleinere Dateien aufteilen, Seiten neu organisieren, unerwünschte Inhalte löschen, Seiten drehen oder bestimmte Abschnitte extrahieren müssen – dieses Tool erledigt alles, ohne dass Sie zwischen verschiedenen Anwendungen wechseln müssen.</p>\n      <p>Die gesamte Verarbeitung findet direkt in Ihrem Browser statt, was die Privatsphäre und Sicherheit Ihrer Dokumente gewährleistet. Es werden keine Dateien auf einen Server hochgeladen.</p>\n    ",
     "howToUse": [
@@ -78,13 +77,14 @@ export const toolContentDe: Record<string, ToolContent> = {
     ]
   },
   "merge-pdf": {
-    "title": "PDF zusammenfügen",
-    "metaDescription": "Kombinieren Sie mehrere PDF-Dateien zu einem Dokument. Kostenloser Online-PDF-Merger mit Drag-and-Drop-Sortierung.",
+    "title": "PDF zusammenfügen - Kostenlos & sicher mehrere PDFs online verbinden",
+    "metaDescription": "Mehrere PDF-Dateien kostenlos und unkompliziert zu einem Dokument kombinieren. Einfaches Sortieren per Drag & Drop, Originalqualität bleibt erhalten. 100% datenschutzkonform im Browser.",
     "keywords": [
       "pdf zusammenfügen",
+      "mehrere pdf verbinden",
       "pdf kombinieren",
-      "pdf verbinden",
-      "pdf merger deutsch"
+      "kostenlos pdf mergen",
+      "pdf zusammenführen online"
     ],
     "description": "\n      <p>Mit \"PDF zusammenfügen\" können Sie mehrere PDF-Dokumente schnell und einfach zu einer einzigen Datei kombinieren. Ob Sie Berichte konsolidieren, gescannte Dokumente verbinden oder eine Präsentation zusammenstellen – dieses Tool macht den Prozess nahtlos.</p>\n      <p>Laden Sie einfach Ihre Dateien hoch, ordnen Sie sie per Drag & Drop in der gewünschten Reihenfolge an und fügen Sie sie zusammen. Das Tool bewahrt die Qualität Ihrer Originaldateien.</p>\n    ",
     "howToUse": [
@@ -262,13 +262,14 @@ export const toolContentDe: Record<string, ToolContent> = {
     ]
   },
   "split-pdf": {
-    "title": "PDF teilen",
-    "metaDescription": "PDF-Dateien in mehrere Dokumente aufteilen. Extrahieren Sie einzelne Seiten oder teilen Sie nach Bereichen.",
+    "title": "PDF teilen - Seiten kostenlos & präzise online trennen & extrahieren",
+    "metaDescription": "Große PDF-Dokumente flexibel nach Seitenbereichen aufteilen oder einzelne Seiten entnehmen. Schnelle lokale Verarbeitung ohne Upload auf externe Server.",
     "keywords": [
       "pdf teilen",
-      "pdf trennen",
+      "pdf seiten trennen",
       "pdf seiten extrahieren",
-      "pdf splitter deutsch"
+      "pdf aufteilen kostenlos",
+      "pdf splitter online"
     ],
     "description": "\n      <p>Mit \"PDF teilen\" können Sie ein einzelnes PDF in mehrere kleinere Dateien aufteilen. Perfekt, um Kapitel zu extrahieren oder kombinierte Dokumente wieder zu trennen.</p>\n    ",
     "howToUse": [
@@ -321,13 +322,14 @@ export const toolContentDe: Record<string, ToolContent> = {
     ]
   },
   "compress-pdf": {
-    "title": "PDF komprimieren",
-    "metaDescription": "PDF-Dateigröße reduzieren bei gleichbleibender Qualität. Online-PDF-Kompressor für kleinere Dateien.",
+    "title": "PDF komprimieren - Dateigröße kostenlos online verkleinern (Ohne Upload)",
+    "metaDescription": "PDF-Dateigröße sofort verkleinern bei maximaler Schärfe und Qualität. Ideal für E-Mail-Anhänge und Web-Uploads. Vollkommen privat in Ihrem Browser.",
     "keywords": [
       "pdf komprimieren",
-      "pdf verkleinern",
-      "pdf größe reduzieren",
-      "pdf optimieren"
+      "pdf dateigröße verkleinern",
+      "pdf kleiner machen",
+      "pdf optimieren",
+      "kostenlos pdf komprimieren"
     ],
     "description": "\n      <p>Dieses Tool reduziert die Dateigröße Ihrer PDFs, ideal für E-Mail-Anhänge oder Web-Uploads. Sie können zwischen verschiedenen Kompressionsstufen wählen.</p>\n    ",
     "howToUse": [
@@ -5030,7 +5032,7 @@ export const toolContentDe: Record<string, ToolContent> = {
       },
       {
         "question": "Can I customize the stamp design?",
-        "answer": "Yes. We provide multiple designs like the PDFCraft watermark or a Royal crest, and you can adjust the wax melting radius and normal-map indentation depth in the panel."
+        "answer": "Yes. We provide multiple designs like the TPSH PDF watermark or a Royal crest, and you can adjust the wax melting radius and normal-map indentation depth in the panel."
       }
     ]
   },

@@ -13,15 +13,14 @@ import { toolContentEn } from './en';
  */
 export const toolContentFr: Record<string, ToolContent> = {
   "pdf-multi-tool": {
-    "title": "Outil PDF Tout-en-un",
-    "metaDescription": "Éditeur PDF tout-en-un : fusionner, diviser, organiser, supprimer, faire pivoter et extraire des pages en un seul outil puissant.",
+    "title": "Boîte à outils PDF complète - Fusionner, diviser, pivoter et organiser",
+    "metaDescription": "Éditeur tout-en-un de pages PDF : fusionnez, divisez, réorganisez, supprimez et extrayez des pages instantanément. Traitement 100% local dans le navigateur, sans envoi sur serveur.",
     "keywords": [
-      "outil pdf multi",
-      "éditeur pdf",
-      "fusionner pdf",
-      "diviser pdf",
-      "organiser pdf",
-      "pdf tout en un"
+      "boite a outils pdf",
+      "editeur pdf tout en un",
+      "fusionner et diviser pdf",
+      "organiser pages pdf",
+      "pdf sans telechargement"
     ],
     "description": "\n      <p>L'Outil PDF Tout-en-un est votre solution complète pour toutes les tâches de gestion de pages PDF. Cet outil puissant combine plusieurs opérations PDF en une seule interface intuitive, vous faisant gagner du temps et de l'énergie.</p>\n      <p>Que vous ayez besoin de fusionner plusieurs documents, de diviser un gros PDF en fichiers plus petits, de réorganiser des pages, de supprimer du contenu indésirable, de faire pivoter des pages ou d'extraire des sections spécifiques, cet outil gère tout cela sans changer d'application.</p>\n      <p>Tout le traitement s'effectue directement dans votre navigateur, garantissant que vos documents restent privés et sécurisés. Aucun fichier n'est téléchargé sur un serveur.</p>\n    ",
     "howToUse": [
@@ -79,14 +78,14 @@ export const toolContentFr: Record<string, ToolContent> = {
     ]
   },
   "merge-pdf": {
-    "title": "Fusionner PDF",
-    "metaDescription": "Combinez plusieurs fichiers PDF en un seul document. Fusionneur PDF en ligne gratuit avec réorganisation par glisser-déposer.",
+    "title": "Fusionner PDF - Combiner plusieurs fichiers PDF en ligne gratuitement",
+    "metaDescription": "Combinez facilement plusieurs documents PDF en un seul fichier. Réorganisation intuitive par glisser-déposer, qualité originale préservée. Sécurité absolue sans upload.",
     "keywords": [
       "fusionner pdf",
       "combiner pdf",
-      "joindre pdf",
-      "assembleur pdf",
-      "concaténer pdf"
+      "assembler pdf",
+      "reunir des pdf",
+      "fusionner pdf gratuit en ligne"
     ],
     "description": "\n      <p>Fusionner PDF vous permet de combiner plusieurs documents PDF en un seul fichier rapidement et facilement. Que vous consolidiez des rapports, combiniez des documents numérisés ou assembliez une présentation, cet outil rend le processus fluide.</p>\n      <p>Il suffit de télécharger vos fichiers, de les organiser dans l'ordre souhaité par glisser-déposer, et de les fusionner en un document cohérent. L'outil préserve la qualité de vos fichiers originaux et peut optionnellement conserver les signets de chaque document source.</p>\n      <p>Toute la fusion se fait localement dans votre navigateur, assurant une confidentialité totale pour vos documents sensibles.</p>\n    ",
     "howToUse": [
@@ -139,14 +138,14 @@ export const toolContentFr: Record<string, ToolContent> = {
     ]
   },
   "split-pdf": {
-    "title": "Diviser PDF",
-    "metaDescription": "Divisez des fichiers PDF en plusieurs documents. Extrayez des pages spécifiques ou divisez par plages de pages.",
+    "title": "Diviser PDF - Extraire des pages et séparer des PDF en ligne gratuitement",
+    "metaDescription": "Séparez vos PDF volumineux en plusieurs fichiers ou extrayez des pages spécifiques en toute simplicité. Traitement ultra-rapide et privé dans votre navigateur.",
     "keywords": [
       "diviser pdf",
-      "séparer pdf",
-      "scinder pdf",
-      "extraire pages",
-      "découpeur pdf"
+      "separer pdf",
+      "extraire pages pdf",
+      "decouper pdf",
+      "diviseur pdf gratuit"
     ],
     "description": "\n      <p>Diviser PDF vous permet de séparer un seul document PDF en plusieurs fichiers plus petits. C'est parfait pour extraire des chapitres spécifiques, séparer des documents combinés ou créer des fichiers individuels à partir d'un PDF multipages.</p>\n      <p>Vous pouvez diviser par plages de pages spécifiques, extraire des pages individuelles ou diviser le document à intervalles réguliers. L'outil fournit un aperçu visuel de vos pages, facilitant la sélection exacte de ce dont vous avez besoin.</p>\n      <p>Tout le traitement est effectué localement dans votre navigateur, garantissant que vos documents restent privés et sécurisés.</p>\n    ",
     "howToUse": [
@@ -270,14 +269,14 @@ export const toolContentFr: Record<string, ToolContent> = {
     ]
   },
   "compress-pdf": {
-    "title": "Compresser PDF",
-    "metaDescription": "Réduisez la taille des fichiers PDF tout en maintenant la qualité. Compresseur PDF en ligne gratuit pour des fichiers plus légers.",
+    "title": "Compresser PDF - Réduire la taille de vos fichiers PDF en ligne (Sans upload)",
+    "metaDescription": "Réduisez le poids de vos fichiers PDF jusqu’à 80% tout en conservant une qualité optimale. Parfait pour les pièces jointes d’emails. Zéro transmission de données.",
     "keywords": [
       "compresser pdf",
-      "réduire taille pdf",
-      "compresseur pdf",
-      "alléger pdf",
-      "optimiser pdf"
+      "reduire taille pdf",
+      "diminuer poids pdf",
+      "optimiser pdf",
+      "compresseur pdf gratuit"
     ],
     "description": "\n      <p>Compresser PDF réduit la taille de fichier de vos documents PDF tout en maintenant une qualité acceptable. C'est essentiel pour les pièces jointes d'e-mails, les téléchargements web ou pour économiser de l'espace de stockage.</p>\n      <p>L'outil offre plusieurs niveaux de compression pour équilibrer la réduction de la taille du fichier et la préservation de la qualité. Vous pouvez choisir une compression agressive pour une réduction maximale ou une compression légère pour maintenir une qualité supérieure.</p>\n      <p>Toute la compression se produit dans votre navigateur, garantissant que vos documents ne quittent jamais votre appareil.</p>\n    ",
     "howToUse": [
@@ -5633,7 +5632,7 @@ export const toolContentFr: Record<string, ToolContent> = {
       },
       {
         "question": "Can I customize the stamp design?",
-        "answer": "Yes. We provide multiple designs like the PDFCraft watermark or a Royal crest, and you can adjust the wax melting radius and normal-map indentation depth in the panel."
+        "answer": "Yes. We provide multiple designs like the TPSH PDF watermark or a Royal crest, and you can adjust the wax melting radius and normal-map indentation depth in the panel."
       }
     ]
   },

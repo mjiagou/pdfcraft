@@ -12,15 +12,15 @@ import { toolContentEn } from './en';
  */
 export const toolContentJa: Record<string, ToolContent> = {
   "pdf-multi-tool": {
-    "title": "PDFマルチツール",
-    "metaDescription": "オールインワンPDFエディター：結合、分割、整理、削除、回転、ページ抽出を1つの強力なツールで。",
+    "title": "PDFマルチツール - 結合・分割・回転・抽出の万能オンラインエディター",
+    "metaDescription": "無料のブラウザ完結型PDF統合ツール：結合、分割、ページの並べ替え、回転、不要ページ削除、抽出を即座に実行。サーバーへのアップロード不要で機密保持も安心。",
     "keywords": [
       "pdfマルチツール",
-      "pdfエディター",
-      "pdf結合",
-      "pdf分割",
-      "pdf整理",
-      "オールインワンpdf"
+      "万能pdf編集",
+      "pdf結合と分割",
+      "pdfページ整理",
+      "無料pdfツール",
+      "安全なローカルpdf処理"
     ],
     "description": "\n      <p>PDFマルチツールは、すべてのPDFページ管理タスクに対応する包括的なソリューションです。この強力なオールインワンツールは、複数のPDF操作を単一の直感的なインターフェースに統合し、時間と労力を節約します。</p>\n      <p>複数のドキュメントの結合、大きなPDFの分割、ページの再編成、不要なコンテンツの削除、ページの回転、特定のセクションの抽出など、異なるアプリケーションを切り替えることなくすべてを処理できます。</p>\n      <p>すべての処理はブラウザ内で直接行われ、ドキュメントのプライバシーとセキュリティが確保されます。ファイルはサーバーにアップロードされません。</p>\n    ",
     "howToUse": [
@@ -78,14 +78,15 @@ export const toolContentJa: Record<string, ToolContent> = {
     ]
   },
   "merge-pdf": {
-    "title": "PDF結合",
-    "metaDescription": "複数のPDFファイルを1つのドキュメントに結合。ドラッグ＆ドロップで並べ替え可能な無料オンラインPDF結合ツール。",
+    "title": "PDF結合 - 複数のPDFを無料・無劣化で1つに結合 (完全ローカル安全処理)",
+    "metaDescription": "インストール不要の高速オンラインPDF結合ツール。ドラッグ＆ドロップで順番を自由に変更、元の高画質とブックマークを完全保持。100%ブラウザローカル処理で安心。",
     "keywords": [
       "pdf結合",
       "pdfを結合",
+      "複数のpdfをまとめる",
       "pdf合併",
-      "pdfマージャー",
-      "pdf連結"
+      "pdf連結オンライン",
+      "無料pdf結合ツール"
     ],
     "description": "\n      <p>PDF結合を使用すると、複数のPDFドキュメントを素早く簡単に1つのファイルに結合できます。レポートの統合、スキャンしたドキュメントの結合、プレゼンテーションの作成など、このツールでプロセスがシームレスになります。</p>\n      <p>ファイルをアップロードし、ドラッグ＆ドロップで希望の順序に並べ替え、1つのまとまったドキュメントに結合するだけです。ツールは元のファイルの品質を保持し、オプションで各ソースドキュメントのブックマークを維持できます。</p>\n      <p>すべての結合はブラウザ内でローカルに行われ、機密ドキュメントの完全なプライバシーが確保されます。</p>\n    ",
     "howToUse": [
@@ -138,14 +139,14 @@ export const toolContentJa: Record<string, ToolContent> = {
     ]
   },
   "split-pdf": {
-    "title": "PDF分割",
-    "metaDescription": "PDFファイルを複数のドキュメントに分割。特定のページを抽出またはページ範囲で分割。",
+    "title": "PDF分割 - オンラインで特定ページを無料抽出・分割 (無劣化)",
+    "metaDescription": "ページ番号の指定、範囲抽出、全ページ一括個別出力に対応したプロ仕様PDF分割ツール。完全オフライン動作で情報漏洩の心配なし。",
     "keywords": [
       "pdf分割",
-      "pdfを分ける",
-      "pdf分離",
-      "ページ抽出",
-      "pdfスプリッター"
+      "pdfページ抽出",
+      "pdf切り離し",
+      "無料pdf分割",
+      "特定ページ抽出pdf"
     ],
     "description": "\n      <p>PDF分割を使用すると、1つのPDFドキュメントを複数の小さなファイルに分割できます。特定の章の抽出、結合されたドキュメントの分離、複数ページのPDFから個別のファイルを作成するのに最適です。</p>\n      <p>特定のページ範囲で分割、個別のページを抽出、または一定間隔でドキュメントを分割できます。ツールはページのビジュアルプレビューを提供し、必要なものを正確に選択しやすくなっています。</p>\n      <p>すべての処理はブラウザ内でローカルに行われ、ドキュメントのプライバシーとセキュリティが確保されます。</p>\n    ",
     "howToUse": [
@@ -203,14 +204,15 @@ export const toolContentJa: Record<string, ToolContent> = {
     ]
   },
   "compress-pdf": {
-    "title": "PDF圧縮",
-    "metaDescription": "品質を維持しながらPDFファイルサイズを削減。小さなファイルのための無料オンラインPDF圧縮ツール。",
+    "title": "PDF圧縮 - 画質を維持してファイルサイズを劇的に軽量化 (アップロード不要)",
+    "metaDescription": "メール添付やWEB提出に最適なPDF高圧縮ツール。テキストの鮮明さを保ちつつ最大80%容量削減。サーバー送信なしの安心ブラウザ完結設計。",
     "keywords": [
       "pdf圧縮",
-      "pdfサイズ削減",
-      "pdf圧縮ツール",
-      "pdf縮小",
-      "pdf最適化"
+      "pdf容量削減",
+      "pdf軽量化",
+      "pdf小さくする",
+      "無料pdf圧縮ツール",
+      "安全なpdf圧縮"
     ],
     "description": "\n      <p>PDF圧縮は、許容可能な品質を維持しながらPDFドキュメントのファイルサイズを削減します。メール添付、ウェブアップロード、ストレージスペースの節約に不可欠です。</p>\n      <p>ツールは、ファイルサイズの削減と品質保持のバランスを取るための複数の圧縮レベルを提供します。最大サイズ削減のための積極的な圧縮、または高品質を維持するための軽い圧縮を選択できます。</p>\n      <p>すべての圧縮はブラウザ内で行われ、ドキュメントがデバイスから離れることはありません。</p>\n    ",
     "howToUse": [
@@ -6406,7 +6408,7 @@ export const toolContentJa: Record<string, ToolContent> = {
       },
       {
         "question": "Can I customize the stamp design?",
-        "answer": "Yes. We provide multiple designs like the PDFCraft watermark or a Royal crest, and you can adjust the wax melting radius and normal-map indentation depth in the panel."
+        "answer": "Yes. We provide multiple designs like the TPSH PDF watermark or a Royal crest, and you can adjust the wax melting radius and normal-map indentation depth in the panel."
       }
     ]
   },
