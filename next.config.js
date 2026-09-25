@@ -119,6 +119,16 @@ const nextConfig = {
     },
   },
 
+  experimental: {
+    // Restrict static generation concurrency to 1 worker to prevent OOM (SIGKILL / exit code: null) in memory-constrained CI environments (EdgeOne Pages, etc.)
+    cpus: 1,
+    workerThreads: false,
+    webpackMemoryOptimizations: true,
+  },
+
+  // Increase timeout for static page generation in CI
+  staticPageGenerationTimeout: 120,
+
   // Trailing slash for static hosting compatibility
   trailingSlash: true,
 
